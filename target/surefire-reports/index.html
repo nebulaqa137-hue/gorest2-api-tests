@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-GoRest_API_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">GoRest API Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-GoRest_API_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\ern3s\gorest-api-tests\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-GoRest_API_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-GoRest_API_Test_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-GoRest_API_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-GoRest_API_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-GoRest_API_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-GoRest_API_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-GoRest_API_Test_Suite" class="hide-methods passed suite-GoRest_API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-GoRest_API_Test_Suite -->
+                      <a href="#" panel-name="suite-GoRest_API_Test_Suite" class="show-methods passed suite-GoRest_API_Test_Suite"> (show)</a> <!-- show-methods passed suite-GoRest_API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-GoRest_API_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.UserCrudTests" class="method navigator-link" hash-for-method="createFemaleUser_shouldReturn201">createFemaleUser_shouldReturn201</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.schema.SchemaValidationTests" class="method navigator-link" hash-for-method="createUser_responseShouldMatchSchema">createUser_responseShouldMatchSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.schema.SchemaValidationTests" class="method navigator-link" hash-for-method="createUser_shouldContainAllRequiredFields">createUser_shouldContainAllRequiredFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.schema.SchemaValidationTests" class="method navigator-link" hash-for-method="createUser_shouldHaveCorrectDataTypes">createUser_shouldHaveCorrectDataTypes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.NegativeUserTests" class="method navigator-link" hash-for-method="createUser_withDuplicateEmail_shouldReturn422">createUser_withDuplicateEmail_shouldReturn422</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.NegativeUserTests" class="method navigator-link" hash-for-method="createUser_withEmptyBody_shouldReturn422">createUser_withEmptyBody_shouldReturn422</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.NegativeUserTests" class="method navigator-link" hash-for-method="createUser_withInvalidGender_shouldReturn422">createUser_withInvalidGender_shouldReturn422</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.UserCrudTests" class="method navigator-link" hash-for-method="createUser_withValidData_shouldReturn201">createUser_withValidData_shouldReturn201</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.NegativeUserTests" class="method navigator-link" hash-for-method="createUser_withoutEmail_shouldReturn422">createUser_withoutEmail_shouldReturn422</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.NegativeUserTests" class="method navigator-link" hash-for-method="createUser_withoutName_shouldReturn422">createUser_withoutName_shouldReturn422</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.NegativeUserTests" class="method navigator-link" hash-for-method="createUser_withoutToken_shouldReturn401">createUser_withoutToken_shouldReturn401</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.UserCrudTests" class="method navigator-link" hash-for-method="deleteNonExistentUser_shouldReturn404">deleteNonExistentUser_shouldReturn404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.UserCrudTests" class="method navigator-link" hash-for-method="deleteUser_withValidId_shouldReturn204">deleteUser_withValidId_shouldReturn204</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.UserCrudTests" class="method navigator-link" hash-for-method="getUserById_withNonExistentId_shouldReturn404">getUserById_withNonExistentId_shouldReturn404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.UserCrudTests" class="method navigator-link" hash-for-method="getUserById_withValidId_shouldReturn200">getUserById_withValidId_shouldReturn200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.NegativeUserTests" class="method navigator-link" hash-for-method="getUser_nonExistentId_shouldReturn404">getUser_nonExistentId_shouldReturn404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.schema.SchemaValidationTests" class="method navigator-link" hash-for-method="getUser_responseShouldMatchSchema">getUser_responseShouldMatchSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.UserCrudTests" class="method navigator-link" hash-for-method="getUsers_shouldReturn200WithList">getUsers_shouldReturn200WithList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.auth.AuthTests" class="method navigator-link" hash-for-method="invalidToken_shouldReturn401">invalidToken_shouldReturn401</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.auth.AuthTests" class="method navigator-link" hash-for-method="noToken_shouldReturn401">noToken_shouldReturn401</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.UserCrudTests" class="method navigator-link" hash-for-method="patchUser_shouldReturn200">patchUser_shouldReturn200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.auth.AuthTests" class="method navigator-link" hash-for-method="postWithoutToken_shouldReturn401">postWithoutToken_shouldReturn401</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.integration.UserIntegrationTests" class="method navigator-link" hash-for-method="step1_createUser">step1_createUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.integration.UserIntegrationTests" class="method navigator-link" hash-for-method="step2_getAndValidateCreatedUser">step2_getAndValidateCreatedUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.integration.UserIntegrationTests" class="method navigator-link" hash-for-method="step3_updateUser">step3_updateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.integration.UserIntegrationTests" class="method navigator-link" hash-for-method="step4_confirmUpdate">step4_confirmUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.integration.UserIntegrationTests" class="method navigator-link" hash-for-method="step5_deleteUser">step5_deleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.integration.UserIntegrationTests" class="method navigator-link" hash-for-method="step6_confirmDeletion">step6_confirmDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.NegativeUserTests" class="method navigator-link" hash-for-method="updateUser_nonExistentId_shouldReturn404">updateUser_nonExistentId_shouldReturn404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.schema.SchemaValidationTests" class="method navigator-link" hash-for-method="updateUser_responseShouldMatchSchema">updateUser_responseShouldMatchSchema</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.users.UserCrudTests" class="method navigator-link" hash-for-method="updateUser_withValidData_shouldReturn200">updateUser_withValidData_shouldReturn200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-GoRest_API_Test_Suite" title="com.api.tests.auth.AuthTests" class="method navigator-link" hash-for-method="validToken_shouldReturn200">validToken_shouldReturn200</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-GoRest_API_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-GoRest_API_Test_Suite" class="panel GoRest_API_Test_Suite">
+          <div class="suite-GoRest_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.auth.AuthTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidToken_shouldReturn401">
+                  </a> <!-- invalidToken_shouldReturn401 -->
+                  <span class="method-name">invalidToken_shouldReturn401</span>
+                  <em>
+(GET /users con token inválido debe retornar 401)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noToken_shouldReturn401">
+                  </a> <!-- noToken_shouldReturn401 -->
+                  <span class="method-name">noToken_shouldReturn401</span>
+                  <em>
+(POST /users sin token debe retornar 401)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postWithoutToken_shouldReturn401">
+                  </a> <!-- postWithoutToken_shouldReturn401 -->
+                  <span class="method-name">postWithoutToken_shouldReturn401</span>
+                  <em>
+(POST /users sin token debe retornar 401 (text block))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validToken_shouldReturn200">
+                  </a> <!-- validToken_shouldReturn200 -->
+                  <span class="method-name">validToken_shouldReturn200</span>
+                  <em>
+(GET /users con token válido debe retornar 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoRest_API_Test_Suite-class-passed -->
+          <div class="suite-GoRest_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.integration.UserIntegrationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1_createUser">
+                  </a> <!-- step1_createUser -->
+                  <span class="method-name">step1_createUser</span>
+                  <em>
+([Paso 1] POST — crear usuario nuevo)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step2_getAndValidateCreatedUser">
+                  </a> <!-- step2_getAndValidateCreatedUser -->
+                  <span class="method-name">step2_getAndValidateCreatedUser</span>
+                  <em>
+([Paso 2] GET — validar usuario creado + schema)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step3_updateUser">
+                  </a> <!-- step3_updateUser -->
+                  <span class="method-name">step3_updateUser</span>
+                  <em>
+([Paso 3] PUT — actualizar nombre y status del usuario)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step4_confirmUpdate">
+                  </a> <!-- step4_confirmUpdate -->
+                  <span class="method-name">step4_confirmUpdate</span>
+                  <em>
+([Paso 4] GET — confirmar que la actualización persiste)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step5_deleteUser">
+                  </a> <!-- step5_deleteUser -->
+                  <span class="method-name">step5_deleteUser</span>
+                  <em>
+([Paso 5] DELETE — eliminar el usuario creado)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step6_confirmDeletion">
+                  </a> <!-- step6_confirmDeletion -->
+                  <span class="method-name">step6_confirmDeletion</span>
+                  <em>
+([Paso 6] GET — confirmar que el usuario ya no existe (404))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoRest_API_Test_Suite-class-passed -->
+          <div class="suite-GoRest_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.users.UserCrudTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createFemaleUser_shouldReturn201">
+                  </a> <!-- createFemaleUser_shouldReturn201 -->
+                  <span class="method-name">createFemaleUser_shouldReturn201</span>
+                  <em>
+(POST con usuario femenino debe retornar 201)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_withValidData_shouldReturn201">
+                  </a> <!-- createUser_withValidData_shouldReturn201 -->
+                  <span class="method-name">createUser_withValidData_shouldReturn201</span>
+                  <em>
+(POST /users con datos válidos debe retornar 201)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteNonExistentUser_shouldReturn404">
+                  </a> <!-- deleteNonExistentUser_shouldReturn404 -->
+                  <span class="method-name">deleteNonExistentUser_shouldReturn404</span>
+                  <em>
+(DELETE /users/{id} con ID inexistente debe retornar 404)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser_withValidId_shouldReturn204">
+                  </a> <!-- deleteUser_withValidId_shouldReturn204 -->
+                  <span class="method-name">deleteUser_withValidId_shouldReturn204</span>
+                  <em>
+(DELETE /users/{id} debe retornar 204)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserById_withNonExistentId_shouldReturn404">
+                  </a> <!-- getUserById_withNonExistentId_shouldReturn404 -->
+                  <span class="method-name">getUserById_withNonExistentId_shouldReturn404</span>
+                  <em>
+(GET /users/{id} con ID inexistente debe retornar 404)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserById_withValidId_shouldReturn200">
+                  </a> <!-- getUserById_withValidId_shouldReturn200 -->
+                  <span class="method-name">getUserById_withValidId_shouldReturn200</span>
+                  <em>
+(GET /users/{id} con ID existente debe retornar 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUsers_shouldReturn200WithList">
+                  </a> <!-- getUsers_shouldReturn200WithList -->
+                  <span class="method-name">getUsers_shouldReturn200WithList</span>
+                  <em>
+(GET /users debe retornar lista con status 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="patchUser_shouldReturn200">
+                  </a> <!-- patchUser_shouldReturn200 -->
+                  <span class="method-name">patchUser_shouldReturn200</span>
+                  <em>
+(PATCH /users/{id} debe actualizar parcialmente y retornar 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUser_withValidData_shouldReturn200">
+                  </a> <!-- updateUser_withValidData_shouldReturn200 -->
+                  <span class="method-name">updateUser_withValidData_shouldReturn200</span>
+                  <em>
+(PUT /users/{id} debe actualizar y retornar 200)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoRest_API_Test_Suite-class-passed -->
+          <div class="suite-GoRest_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.users.NegativeUserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_withDuplicateEmail_shouldReturn422">
+                  </a> <!-- createUser_withDuplicateEmail_shouldReturn422 -->
+                  <span class="method-name">createUser_withDuplicateEmail_shouldReturn422</span>
+                  <em>
+(POST con email duplicado debe retornar 422)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_withEmptyBody_shouldReturn422">
+                  </a> <!-- createUser_withEmptyBody_shouldReturn422 -->
+                  <span class="method-name">createUser_withEmptyBody_shouldReturn422</span>
+                  <em>
+(POST sin body debe retornar 422)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_withInvalidGender_shouldReturn422">
+                  </a> <!-- createUser_withInvalidGender_shouldReturn422 -->
+                  <span class="method-name">createUser_withInvalidGender_shouldReturn422</span>
+                  <em>
+(POST con gender inválido debe retornar 422)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_withoutEmail_shouldReturn422">
+                  </a> <!-- createUser_withoutEmail_shouldReturn422 -->
+                  <span class="method-name">createUser_withoutEmail_shouldReturn422</span>
+                  <em>
+(POST sin email debe retornar 422)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_withoutName_shouldReturn422">
+                  </a> <!-- createUser_withoutName_shouldReturn422 -->
+                  <span class="method-name">createUser_withoutName_shouldReturn422</span>
+                  <em>
+(POST sin nombre debe retornar 422)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_withoutToken_shouldReturn401">
+                  </a> <!-- createUser_withoutToken_shouldReturn401 -->
+                  <span class="method-name">createUser_withoutToken_shouldReturn401</span>
+                  <em>
+(POST sin token debe retornar 401)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUser_nonExistentId_shouldReturn404">
+                  </a> <!-- getUser_nonExistentId_shouldReturn404 -->
+                  <span class="method-name">getUser_nonExistentId_shouldReturn404</span>
+                  <em>
+(GET usuario con ID inexistente debe retornar 404)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUser_nonExistentId_shouldReturn404">
+                  </a> <!-- updateUser_nonExistentId_shouldReturn404 -->
+                  <span class="method-name">updateUser_nonExistentId_shouldReturn404</span>
+                  <em>
+(PUT usuario con ID inexistente debe retornar 404)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoRest_API_Test_Suite-class-passed -->
+          <div class="suite-GoRest_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.api.tests.schema.SchemaValidationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_responseShouldMatchSchema">
+                  </a> <!-- createUser_responseShouldMatchSchema -->
+                  <span class="method-name">createUser_responseShouldMatchSchema</span>
+                  <em>
+(POST /users — response debe cumplir user-schema.json)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_shouldContainAllRequiredFields">
+                  </a> <!-- createUser_shouldContainAllRequiredFields -->
+                  <span class="method-name">createUser_shouldContainAllRequiredFields</span>
+                  <em>
+(Response POST debe contener todos los campos requeridos)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser_shouldHaveCorrectDataTypes">
+                  </a> <!-- createUser_shouldHaveCorrectDataTypes -->
+                  <span class="method-name">createUser_shouldHaveCorrectDataTypes</span>
+                  <em>
+(Response debe tener tipos de datos correctos (id=int, name=string))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUser_responseShouldMatchSchema">
+                  </a> <!-- getUser_responseShouldMatchSchema -->
+                  <span class="method-name">getUser_responseShouldMatchSchema</span>
+                  <em>
+(GET /users/{id} — response debe cumplir user-schema.json)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUser_responseShouldMatchSchema">
+                  </a> <!-- updateUser_responseShouldMatchSchema -->
+                  <span class="method-name">updateUser_responseShouldMatchSchema</span>
+                  <em>
+(PUT /users/{id} — response debe cumplir user-schema.json)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-GoRest_API_Test_Suite-class-passed -->
+        </div> <!-- panel GoRest_API_Test_Suite -->
+        <div panel-name="test-xml-GoRest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ern3s\gorest-api-tests\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;GoRest API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Auth Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.tests.auth.AuthTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Auth Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;User CRUD Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.tests.users.UserCrudTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- User CRUD Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Schema Validation Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.tests.schema.SchemaValidationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Schema Validation Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Negative Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.tests.users.NegativeUserTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Negative Tests --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Integration Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.api.tests.integration.UserIntegrationTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Integration Tests --&gt;
+&lt;/suite&gt; &lt;!-- GoRest API Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-GoRest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for GoRest API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Auth Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">User CRUD Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Schema Validation Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Negative Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Integration Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-GoRest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for GoRest API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">integration</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">step1_createUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step2_getAndValidateCreatedUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step3_updateUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step4_confirmUpdate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step5_deleteUser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">step6_confirmDeletion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-GoRest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for GoRest API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_GoRest_API_Test_Suite');
+function tableData_GoRest_API_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'invalidToken_shouldReturn401')
+data.setCell(0, 2, 'com.api.tests.auth.AuthTests')
+data.setCell(0, 3, 5769);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getUser_responseShouldMatchSchema')
+data.setCell(1, 2, 'com.api.tests.schema.SchemaValidationTests')
+data.setCell(1, 3, 3170);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'updateUser_responseShouldMatchSchema')
+data.setCell(2, 2, 'com.api.tests.schema.SchemaValidationTests')
+data.setCell(2, 3, 2848);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createUser_responseShouldMatchSchema')
+data.setCell(3, 2, 'com.api.tests.schema.SchemaValidationTests')
+data.setCell(3, 3, 2479);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getUserById_withValidId_shouldReturn200')
+data.setCell(4, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(4, 3, 2439);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'updateUser_withValidData_shouldReturn200')
+data.setCell(5, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(5, 3, 2357);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'patchUser_shouldReturn200')
+data.setCell(6, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(6, 3, 2346);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'noToken_shouldReturn401')
+data.setCell(7, 2, 'com.api.tests.auth.AuthTests')
+data.setCell(7, 3, 2340);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createUser_withDuplicateEmail_shouldReturn422')
+data.setCell(8, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(8, 3, 2260);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'deleteUser_withValidId_shouldReturn204')
+data.setCell(9, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(9, 3, 2127);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createFemaleUser_shouldReturn201')
+data.setCell(10, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(10, 3, 2053);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createUser_shouldHaveCorrectDataTypes')
+data.setCell(11, 2, 'com.api.tests.schema.SchemaValidationTests')
+data.setCell(11, 3, 1946);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'createUser_withValidData_shouldReturn201')
+data.setCell(12, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(12, 3, 1739);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createUser_shouldContainAllRequiredFields')
+data.setCell(13, 2, 'com.api.tests.schema.SchemaValidationTests')
+data.setCell(13, 3, 1580);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getUsers_shouldReturn200WithList')
+data.setCell(14, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(14, 3, 1341);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'updateUser_nonExistentId_shouldReturn404')
+data.setCell(15, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(15, 3, 1212);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'step1_createUser')
+data.setCell(16, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(16, 3, 854);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getUserById_withNonExistentId_shouldReturn404')
+data.setCell(17, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(17, 3, 850);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'step4_confirmUpdate')
+data.setCell(18, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(18, 3, 850);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'step3_updateUser')
+data.setCell(19, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(19, 3, 830);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'getUser_nonExistentId_shouldReturn404')
+data.setCell(20, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(20, 3, 825);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'deleteNonExistentUser_shouldReturn404')
+data.setCell(21, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(21, 3, 816);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'step2_getAndValidateCreatedUser')
+data.setCell(22, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(22, 3, 800);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'postWithoutToken_shouldReturn401')
+data.setCell(23, 2, 'com.api.tests.auth.AuthTests')
+data.setCell(23, 3, 774);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'createUser_withInvalidGender_shouldReturn422')
+data.setCell(24, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(24, 3, 770);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'createUser_withoutEmail_shouldReturn422')
+data.setCell(25, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(25, 3, 720);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'createUser_withoutName_shouldReturn422')
+data.setCell(26, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(26, 3, 705);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'step5_deleteUser')
+data.setCell(27, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(27, 3, 703);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'createUser_withoutToken_shouldReturn401')
+data.setCell(28, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(28, 3, 694);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'validToken_shouldReturn200')
+data.setCell(29, 2, 'com.api.tests.auth.AuthTests')
+data.setCell(29, 3, 655);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'step6_confirmDeletion')
+data.setCell(30, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(30, 3, 625);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'createUser_withEmptyBody_shouldReturn422')
+data.setCell(31, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(31, 3, 577);
+window.suiteTableData['GoRest_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-GoRest_API_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 50 seconds</span>
+              <div id="times-div-GoRest_API_Test_Suite">
+              </div> <!-- times-div-GoRest_API_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-GoRest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for GoRest API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-GoRest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-GoRest_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.integration.UserIntegrationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">globalSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.auth.AuthTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invalidToken_shouldReturn401</span>
+                <span class="method-start">1501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noToken_shouldReturn401</span>
+                <span class="method-start">7400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postWithoutToken_shouldReturn401</span>
+                <span class="method-start">9748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validToken_shouldReturn200</span>
+                <span class="method-start">10525 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.users.UserCrudTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createFemaleUser_shouldReturn201</span>
+                <span class="method-start">11248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser_withValidData_shouldReturn201</span>
+                <span class="method-start">13303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteNonExistentUser_shouldReturn404</span>
+                <span class="method-start">15042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser_withValidId_shouldReturn204</span>
+                <span class="method-start">15860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserById_withNonExistentId_shouldReturn404</span>
+                <span class="method-start">17990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserById_withValidId_shouldReturn200</span>
+                <span class="method-start">18842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUsers_shouldReturn200WithList</span>
+                <span class="method-start">21281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">patchUser_shouldReturn200</span>
+                <span class="method-start">22630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUser_withValidData_shouldReturn200</span>
+                <span class="method-start">24978 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.schema.SchemaValidationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUser_responseShouldMatchSchema</span>
+                <span class="method-start">27358 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser_shouldContainAllRequiredFields</span>
+                <span class="method-start">29841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser_shouldHaveCorrectDataTypes</span>
+                <span class="method-start">31421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUser_responseShouldMatchSchema</span>
+                <span class="method-start">33371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUser_responseShouldMatchSchema</span>
+                <span class="method-start">36541 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.users.NegativeUserTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createUser_withDuplicateEmail_shouldReturn422</span>
+                <span class="method-start">39401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser_withEmptyBody_shouldReturn422</span>
+                <span class="method-start">41664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser_withInvalidGender_shouldReturn422</span>
+                <span class="method-start">42251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser_withoutEmail_shouldReturn422</span>
+                <span class="method-start">43026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser_withoutName_shouldReturn422</span>
+                <span class="method-start">43746 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createUser_withoutToken_shouldReturn401</span>
+                <span class="method-start">44461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUser_nonExistentId_shouldReturn404</span>
+                <span class="method-start">45161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUser_nonExistentId_shouldReturn404</span>
+                <span class="method-start">45991 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.integration.UserIntegrationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">step1_createUser</span>
+                <span class="method-start">47217 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step2_getAndValidateCreatedUser</span>
+                <span class="method-start">48081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step3_updateUser</span>
+                <span class="method-start">48886 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step4_confirmUpdate</span>
+                <span class="method-start">49721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step5_deleteUser</span>
+                <span class="method-start">50580 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step6_confirmDeletion</span>
+                <span class="method-start">51289 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

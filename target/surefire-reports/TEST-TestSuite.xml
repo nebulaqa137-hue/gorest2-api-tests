@@ -1,0 +1,2628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="54.521" tests="32" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ern3s\gorest-api-tests\target\test-classes;C:\Users\ern3s\gorest-api-tests\target\classes;C:\Users\ern3s\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\ern3s\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\ern3s\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\ern3s\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ern3s\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ern3s\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ern3s\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ern3s\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ern3s\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ern3s\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ern3s\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\ern3s\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\ern3s\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\ern3s\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\ern3s\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\ern3s\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\ern3s\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\ern3s\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\ern3s\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\ern3s\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ern3s\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\ern3s\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\ern3s\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ern3s\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ern3s\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\ern3s\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\ern3s\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ern3s\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\ern3s\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ern3s\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ern3s\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ern3s\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\ern3s\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\ern3s\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\ern3s\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\ern3s\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ern3s\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\ern3s\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ern3s\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ern3s\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\ern3s\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ern3s\.m2\repository\org\slf4j\slf4j-simple\2.0.11\slf4j-simple-2.0.11.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Mexico_City"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\ern3s\AppData\Local\Temp\surefire16748999732154230327\surefirebooter-20260417080346670_3.jar C:\Users\ern3s\AppData\Local\Temp\surefire16748999732154230327 2026-04-17T08-03-46_467-jvmRun1 surefire-20260417080346670_1tmp surefire_0-20260417080346670_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ern3s\gorest-api-tests\target\test-classes;C:\Users\ern3s\gorest-api-tests\target\classes;C:\Users\ern3s\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\ern3s\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\ern3s\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\ern3s\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ern3s\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ern3s\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ern3s\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ern3s\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ern3s\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ern3s\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ern3s\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\ern3s\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\ern3s\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\ern3s\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\ern3s\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\ern3s\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\ern3s\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\ern3s\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\ern3s\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\ern3s\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\ern3s\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ern3s\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\ern3s\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\ern3s\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ern3s\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ern3s\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\ern3s\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\ern3s\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\ern3s\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\ern3s\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ern3s\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ern3s\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ern3s\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\ern3s\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\ern3s\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\ern3s\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\ern3s\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ern3s\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\ern3s\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ern3s\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ern3s\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-rest-assured\2.25.0\allure-rest-assured-2.25.0.jar;C:\Users\ern3s\.m2\repository\io\qameta\allure\allure-attachments\2.25.0\allure-attachments-2.25.0.jar;C:\Users\ern3s\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ern3s\.m2\repository\org\slf4j\slf4j-simple\2.0.11\slf4j-simple-2.0.11.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\ern3s\gorest-api-tests\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ern3s"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ern3s\gorest-api-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ern3s\AppData\Local\Temp\surefire16748999732154230327\surefirebooter-20260417080346670_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
+    <property name="user.name" value="Ernesto"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ern3s\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ern3s\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="C:\Users\ern3s\gorest-api-tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21.0.10\bin;C:\Program Files\apache-maven-3.9.13\bin;C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\ern3s\scoop\shims;C:\Users\ern3s\.local\bin;C:\Users\ern3s\AppData\Local\Microsoft\WindowsApps;C:\Users\ern3s\AppData\Roaming\npm;C:\Users\ern3s\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ern3s\AppData\Local\GitHubDesktop\bin;C:\Users\ern3s\AppData\Local\Python\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.10+8-LTS-217"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="invalidToken_shouldReturn401" classname="com.api.tests.auth.AuthTests" time="5.89">
+    <system-out><![CDATA[====================================
+  GoRest API Test Suite - Iniciando
+====================================
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer this_is_an_invalid_token_12345
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Apr 2026 14:03:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: b717ee8c-07b1-4372-9beb-d632b2135ed5
+x-runtime: 0.018167
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=s2w52Ud0Ew59u4cn2ki9xbHpD%2Bmb7tAIkXrcW3Ov3Rdw5eii8y8CqKxHCT8bQcAMLAyV%2B9U799gHEPox5kiQjuZ6RuoJCTC7xGdFk7ObHg7ggBRTHQAM0midwUEdvpM%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbf9b36c206f16-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Invalid token"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="noToken_shouldReturn401" classname="com.api.tests.auth.AuthTests" time="2.339">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Jennette Labadie",
+    "email": "test_7eda82f4@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Apr 2026 14:03:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 4e5a9fa5-0f6c-4688-8b12-0e29e815382f
+x-runtime: 0.008895
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4Nxmhozk7zeUYJ69KRz5tS5nG9K%2FJSjjUDx1Di4kwNQL%2Blb5mcgo9Pdfp4um6vfuRIJqKXzhb8k7rM3jxb%2F7fNL4Yf3glzvfCleYLpxIKEQ9rtjuJnaAhpiFiV3mdIg%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbf9cb6a98d7a0-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Authentication failed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postWithoutToken_shouldReturn401" classname="com.api.tests.auth.AuthTests" time="0.777">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Test User",
+    "email": "test@example.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Apr 2026 14:03:55 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 464d5172-01fc-4106-8be1-194141d813d1
+x-runtime: 0.009648
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=veKOw%2BAV4smJms%2B8%2BSOqVQZyOVvuiPFgBu8GmaNcfWixugYbZN%2BXiSqKNdpVkkxA6ckq%2BDvnMBGefJoRCCAdfQLC%2BP0IacrfcKTemN35hu3cNKNxErPHqHQy9uENE70%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbf9d30e96dad6-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Authentication failed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="validToken_shouldReturn200" classname="com.api.tests.auth.AuthTests" time="0.655">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:03:55 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"4cfc34bfea5ff3c437e208592de54040"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-links-current: https://gorest.co.in/public/v2/users?page=1
+x-links-next: https://gorest.co.in/public/v2/users?page=2
+x-links-previous: 
+x-pagination-limit: 10
+x-pagination-page: 1
+x-pagination-pages: 296
+x-pagination-total: 2953
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 87
+x-ratelimit-reset: 1
+x-request-id: 681d9d48-3937-4af4-94b5-6a9aa8e65f4c
+x-runtime: 0.075370
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jMoIcFPORKzGeP%2FdHO%2FJK9n2sOf5rzeANwGsVg%2BZp2wDiDuHgvyIJC32ycVXcxgTwNC%2FxGgVmIASIKck1aMEXosI76XZUcvxKh1DO9roccVwyb37BH6GveIIfJjrhps%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbf9d74924b52d-DFW
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 8439265,
+        "name": "Sen. Adinath Jha",
+        "email": "jha_sen_adinath@batz-grady.example",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 8439264,
+        "name": "Hiranmaya Acharya",
+        "email": "acharya_hiranmaya@spencer.test",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 8439263,
+        "name": "Shivakari Menon",
+        "email": "shivakari_menon@yost.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 8439262,
+        "name": "Shobhana Kapoor",
+        "email": "kapoor_shobhana@turcotte.test",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 8439261,
+        "name": "Baalagopaal Varma",
+        "email": "baalagopaal_varma@braun.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 8439260,
+        "name": "Trilokanath Singh",
+        "email": "trilokanath_singh@hand-haley.test",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 8439259,
+        "name": "Devak Nayar",
+        "email": "devak_nayar@kunde.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 8439258,
+        "name": "Mr. Ambar Panicker",
+        "email": "mr_panicker_ambar@renner.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 8439257,
+        "name": "Dharmaketu Nayar CPA",
+        "email": "cpa_nayar_dharmaketu@steuber.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 8439256,
+        "name": "Bhushan Iyer",
+        "email": "bhushan_iyer@boyle.test",
+        "gender": "male",
+        "status": "inactive"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="createFemaleUser_shouldReturn201" classname="com.api.tests.users.UserCrudTests" time="2.055">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Dino Ferry",
+    "email": "test_b4224554@mailtest.com",
+    "gender": "female",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:03:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 107
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"422fd7d64347a94dd9d306e76d501b43"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440785
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: ae841186-4796-494a-8e79-1ac3b4b476e1
+x-runtime: 0.096307
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=DEKAzs3LF4CyPYNzUY9FU3fzHceiLb673VBCzuRjyG9jEI3o9mVLMQkN4QdvYBupwMP8T9nrnC7mt3o5hn8GFzlN9q1lfZWpqNQMB9NuSkdEHvQILM9nTn0evTfpOuE%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbf9dc3bfcda1e-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440785,
+    "name": "Dino Ferry",
+    "email": "test_b4224554@mailtest.com",
+    "gender": "female",
+    "status": "active"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440785
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440785
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:03:57 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 3c84ecb6-716b-40fb-a69d-8a7df4b592a1
+x-runtime: 0.102245
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gdc%2FjkQ3qDTHn%2Fd7m5mSYh%2BILkBwlq0RaHrhAuMrPr10FRsdLs%2B5frT%2Bj18IfV5qtr%2BOCS7zDN48GyduN8GS9%2BDe%2Bf1hJjm7SaLBPZW37Oo2zuTfxZPSP9MF5lF7%2BD8%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbf9e12865e766-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_withValidData_shouldReturn201" classname="com.api.tests.users.UserCrudTests" time="1.739">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mr. Abram King",
+    "email": "test_5358e7b2@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:03:58 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 109
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"7fc80e4b88e24a76b9767dced39ce4c6"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440786
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 28846816-230a-44fd-b20a-c1191e223563
+x-runtime: 0.098732
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lfpBNOcrZ4kr79UWRWtASZjN26%2BaoPr5vgAARl9%2Bu52NoEDp16WGdiFiU4YvxgT79FUNkGOi7mz7%2BFPZ0fS7gWn2lW0tggnVa%2B9npLTlOxE19eFxJD%2BWkcrf0LoxFIk%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbf9e8d8454fab-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440786,
+    "name": "Mr. Abram King",
+    "email": "test_5358e7b2@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440786
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440786
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:03:59 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 1f907fad-b5d3-4abc-a600-d1ae2fd93111
+x-runtime: 0.107481
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=D1IE29BwJIS7Zn9H80XdY1XFQjfcqI0kFdy0vFL8hoIf3lhlP2arpEmFHWY4YPMKvSxq6A1kG5rxsoPeQVjb9XdOhERanJfNiNLFIXfbbpw41Ci5BWmhBAjhiWCvIxk%3D"}]}
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 9edbf9ee9f776c50-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="deleteNonExistentUser_shouldReturn404" classname="com.api.tests.users.UserCrudTests" time="0.818">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/9999999999
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=9999999999
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Fri, 17 Apr 2026 14:04:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 752a7ad5-9d31-472c-8d0c-49475f14ca0f
+x-runtime: 0.061276
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xsswMMLrkiDcv32SiA4XeQ35W0i7KV0WBXnPfui7xj1gHLKyOFf%2F2FchcaBi4xodhv5Kqn4RZpqcwhliqoSljz4PBdQ%2FrkS0rHHeEz2HO38IyclLO7CLbvCYayh2YvY%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbf9f45aaa88d1-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Resource not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteUser_withValidId_shouldReturn204" classname="com.api.tests.users.UserCrudTests" time="2.13">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Teresia Glover",
+    "email": "test_96c14c39@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 109
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"43f322737b0ef68d01c7d33469408c98"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440787
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 14ec4cd5-b430-4fe9-8db0-ee7fb205f5ff
+x-runtime: 0.094202
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GqvZhpQpJTPOkBm2oJA13VUXMbPojOvOy4y3A7U8T%2B%2FhC66QNe%2FFCDaTnRQV9trJoLwVwxv4tSVvwUnQS1UN1pKlbJFf6moAYmYepbSaOoHtct5e1oup2GLEkpJ6hEQ%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbf9f8d903670d-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440787,
+    "name": "Teresia Glover",
+    "email": "test_96c14c39@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440787
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440787
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:02 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 3979d47b-af27-42e8-9d8f-6e71a91e0b9f
+x-runtime: 0.110705
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=n30mHolgG%2BgG1p8f8ljgjWv4BRyYGOQijc2B1jaq%2Btmcyg9JBctEXHy3awA5qHgdNtTntFM0R9klJgKQmp%2FcXB5zbC%2BHUCKx9YrBSZPmaToCGrRdKws27mRocixeQy4%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbf9fdeaf3fc16-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="getUserById_withNonExistentId_shouldReturn404" classname="com.api.tests.users.UserCrudTests" time="0.852">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/9999999999
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=9999999999
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Fri, 17 Apr 2026 14:04:03 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 16d443d7-a8d1-4c75-93c9-deade903373b
+x-runtime: 0.053228
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FB6xjnLrnbee2nJnBMiGpK1AdPXLyCORTpX7wLpexhEruII%2BMmRjx3akrggPhhmy04tHL979jpI3GFdPTcwlDbhEFq3%2B%2FEw18BvMiPvmKeWCfzj3TYBB3%2Fdh9pQ8%2Bzo%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa06399a0c24-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Resource not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUserById_withValidId_shouldReturn200" classname="com.api.tests.users.UserCrudTests" time="2.447">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Dr. Mellissa Schaefer",
+    "email": "test_08d96ca0@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:04 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 116
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"fec3113324194e7651f92a3da4e1816f"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440788
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 80f7a89d-0a53-4ef3-8925-2ef921efa190
+x-runtime: 0.086747
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=TiyHSFcsCIiK8Ge3zY72O1RRBv71UAw7OhpMSCqr5ZO7vBn205CjK2FUJD0d6kqv2BIJMbRgWVVVBqNeZCmxErY0kkBfgPtHdDapgRWgGskiKbGswyLZZ13OhlMMXTM%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbfa0cab57b13c-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440788,
+    "name": "Dr. Mellissa Schaefer",
+    "email": "test_08d96ca0@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/8440788
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440788
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:04:05 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"fec3113324194e7651f92a3da4e1816f"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 7b409929-d4c5-46ce-a07e-18ebef62d1b3
+x-runtime: 0.077952
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eu48a8KB4twrz%2BgX0hPOzOUjUVirpoGPnwa5T2Ghot852kVfT0v9K3Xb4TCC4KVoWzrK3lzOILS4vhsZn2KFZwQoVDuSHWWuzQpWX%2FMmbAXhQTsLl9AeKXk0PWEdPMA%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbfa112bc9c3d9-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440788,
+    "name": "Dr. Mellissa Schaefer",
+    "email": "test_08d96ca0@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440788
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440788
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:05 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: f5cdea95-c44f-4473-af34-d54094d420b2
+x-runtime: 0.103337
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IQUxdASmkHzcPvxiGPg5fh5MYrn8yXcOo6s4WkkEcTNURiqlnkB2NbhgdW7RMalqwvNHv5AAvVqButEYcTDjdJXVu1Z12YseSLPF1Na%2BLnxtZb%2FRNVIlISi27Sp9ZPE%3D"}]}
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 9edbfa1649cc66d7-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="getUsers_shouldReturn200WithList" classname="com.api.tests.users.UserCrudTests" time="1.339">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:04:07 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"4cfc34bfea5ff3c437e208592de54040"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-links-current: https://gorest.co.in/public/v2/users?page=1
+x-links-next: https://gorest.co.in/public/v2/users?page=2
+x-links-previous: 
+x-pagination-limit: 10
+x-pagination-page: 1
+x-pagination-pages: 296
+x-pagination-total: 2953
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 4fb4f981-a34e-48c7-a0ae-39136f3c964d
+x-runtime: 0.074423
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8n7Om50BcCQtYAai5vvcFL6UhAwfZhcYN2cNrjFXBSt2Q0ZRu6yp%2Fa2gwQLDq3lfbcc%2FUGGRFh%2BBBuiT9BSr%2Fqd1n%2BVEafDtQSqQsQOaed2wDNoKPFO%2BNAcw5TXOJKM%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbfa1a8ae3ddad-DFW
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 8439265,
+        "name": "Sen. Adinath Jha",
+        "email": "jha_sen_adinath@batz-grady.example",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 8439264,
+        "name": "Hiranmaya Acharya",
+        "email": "acharya_hiranmaya@spencer.test",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 8439263,
+        "name": "Shivakari Menon",
+        "email": "shivakari_menon@yost.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 8439262,
+        "name": "Shobhana Kapoor",
+        "email": "kapoor_shobhana@turcotte.test",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 8439261,
+        "name": "Baalagopaal Varma",
+        "email": "baalagopaal_varma@braun.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 8439260,
+        "name": "Trilokanath Singh",
+        "email": "trilokanath_singh@hand-haley.test",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 8439259,
+        "name": "Devak Nayar",
+        "email": "devak_nayar@kunde.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 8439258,
+        "name": "Mr. Ambar Panicker",
+        "email": "mr_panicker_ambar@renner.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 8439257,
+        "name": "Dharmaketu Nayar CPA",
+        "email": "cpa_nayar_dharmaketu@steuber.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 8439256,
+        "name": "Bhushan Iyer",
+        "email": "bhushan_iyer@boyle.test",
+        "gender": "male",
+        "status": "inactive"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="patchUser_shouldReturn200" classname="com.api.tests.users.UserCrudTests" time="2.348">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Devorah Feest",
+    "email": "test_0d0e0739@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:08 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 108
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"998f5f54bcf5255eca5a917197d5d9f7"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440789
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 083225cf-e7fe-4234-9067-cab0b1916ee9
+x-runtime: 0.084447
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Lu8I3lkduWZZ0dS6yCNdK0JnhUdgI3qJCe03YQl%2BbQhRxQQeoZsDkFMWevJWjPTU3c%2BoikWDnA08u86pt5Bdfn7svTfP1SC8Dt4pEeSES7SY8vT%2BpHRtEnZpROh8G%2B4%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa23bf3a9bcf-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440789,
+    "name": "Devorah Feest",
+    "email": "test_0d0e0739@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	PATCH
+Request URI:	https://gorest.co.in/public/v2/users/8440789
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440789
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Patched Name"
+}
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:04:08 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"fabfda5ee06424402f8eed3df7171f91"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 7f77029a-6fdc-430d-821b-5ed80304e0c3
+x-runtime: 0.092980
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=f0%2BrwuC3%2FAjWJ%2FwmwmHUJI%2FVs1h0JXqpbksQKz%2BESwryNkGt3%2BJSOHBG5Nhw77j5BFJIItAmnVGPyfCEs%2BVjAbs%2FcFO012cAntSKI6EhRn56oxfCev713i1Gd2U40Uw%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbfa288ca1e718-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": "Patched Name",
+    "id": 8440789,
+    "email": "test_0d0e0739@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440789
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440789
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:09 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: b94926e8-d4a0-41ab-a07e-232d59f383c1
+x-runtime: 0.098130
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LrpIw1jx36yrSR88obwu0NpPvHVJ968XOs3GD9xzUsjVXGTCPcl1JbGN%2F4qY4aNmNoX2B%2B%2FQYIlXgqH3NPVV5ezFesgc9aFaMmzj8qVPb283zV3U9FZ5nORkFQWCSU4%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa2d495d765b-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser_withValidData_shouldReturn200" classname="com.api.tests.users.UserCrudTests" time="2.369">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Miss Carolyn Gutmann",
+    "email": "test_44ab1e40@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 115
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"fec79c0db3f2b39ca75bc8b7fdc87189"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440790
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 11e2663c-8a13-488e-8675-c50f401bbf3c
+x-runtime: 0.097899
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=I0z4d82OamX%2B14zEbrmm1ZxAXv%2BVCG3hXfji0KkJH0EHw16QRUnf%2Bruv0ZZ60u7lNUHxD%2FL6EUlSILF4UOcMd7pXt5SdRlKM4DVw5Vlm1OYmrX9Wvln%2BuknLoY80jjw%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbfa326f418b33-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440790,
+    "name": "Miss Carolyn Gutmann",
+    "email": "test_44ab1e40@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	PUT
+Request URI:	https://gorest.co.in/public/v2/users/8440790
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440790
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Updated Zack",
+    "status": "inactive"
+}
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:04:11 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"3d05341a3e06c2d56c8ab6f78fe75771"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 88c78a23-6f8d-4bc2-9994-28c161672368
+x-runtime: 0.081293
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lFSE4rfOFJeIJQ0dp5ysQh5%2BAD0zRgQsm%2BbXAXHtrkYxcy5Z65MDaqVB2aO1f1UrDn%2BrMrmvQo4ZSPjcsptvNgPYsU57IyrvI08%2BxnZTexdNuPhPoiWyYM1WMFjnwBI%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbfa37893f6c2e-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": "Updated Zack",
+    "status": "inactive",
+    "id": 8440790,
+    "email": "test_44ab1e40@mailtest.com",
+    "gender": "male"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440790
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440790
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:11 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 64ef12bf-930b-48f1-9a94-02468b92b24e
+x-runtime: 0.071969
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gBLKuqRZeN1tHIocd9ulF7XcEAB3cgg3IUkAlELtnddPrn2lHBy56bCWN%2BBBL3kC1pKoy8j3YvL1LTWZ8%2BJ31GOtfZRheeHAGyf7hhfxdvF1ZGGf%2FFBQd3AemRlS7pg%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa3cab94080b-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_responseShouldMatchSchema" classname="com.api.tests.schema.SchemaValidationTests" time="2.483">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Chan Gottlieb",
+    "email": "test_f26d5ca5@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 108
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"bbec39f2b64240bf05d069a9ad38bc1c"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440791
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 217757db-eb91-4184-89de-1fede52a3494
+x-runtime: 0.086919
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KzVid5KfsG7oL1dIemf1l7mCN7Pxuqu2x%2FoVtGJtNsnVoAADvO43bG8jFLEoSyXU3HLpvKk03YO73%2FtuF7IieLVeRB%2BgL4FCut14bo7B00Nbn1AA5eLKcO%2B3TJVfNzs%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbfa4129b14689-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440791,
+    "name": "Chan Gottlieb",
+    "email": "test_f26d5ca5@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440791
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440791
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:14 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 178cf9b0-74f9-48e6-bd3c-0fd1366ed6bc
+x-runtime: 0.102051
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Lps8aIitmfl1PLK7y1quDIV4DK%2Bah2b7NX8iSdiW8s5IjtrCIO0OZ7c%2BNAZIYip0NpBq8aaC34FZwBWrLc3yuL%2FcyPK7uEArB59cCjQ7H2inRl08F2Rbr%2FInmtzmPyw%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa48ce23f086-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_shouldContainAllRequiredFields" classname="com.api.tests.schema.SchemaValidationTests" time="1.588">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Nita Larkin",
+    "email": "test_b37d551e@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 106
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"ddf86fcd3641854e5e4883c80d9ac465"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440792
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 5b5ac8cc-aca1-4b64-8f15-92f9067e5e41
+x-runtime: 0.085938
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=fHh4o2Fap1%2FnUHK%2BD7FXjw0f4Y4r5xWgLe9csIruRwKDn7VzlBQFus509e5Ull%2BnRdZLg5GsAru%2ByeKaxaTsfqxjJcF2SdWaMfFjfxS1A2CZwdwcDk2%2B%2BzaG1kEbTzU%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbfa507abf6bde-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440792,
+    "name": "Nita Larkin",
+    "email": "test_b37d551e@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440792
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440792
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:15 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: c9b5369e-2fd3-4828-9ca4-e43753d143e5
+x-runtime: 0.097325
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=N2gWgrdDRhR2I%2BnQiof5BBpNHo4H113oopR9p2iaf3w00mMCFosj4vVCv6n7N2BUM8bEiE86DCNvSAM6Nft0sIYctrnSFEnRyIDrkDD6aVlA67%2FlK%2BDz%2Bpv9AQ6O7RE%3D"}]}
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 9edbfa55a8e768a7-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_shouldHaveCorrectDataTypes" classname="com.api.tests.schema.SchemaValidationTests" time="1.942">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ossie West",
+    "email": "test_2cb0ffc1@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 105
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"5053e8aba3d59b494910bd487b633182"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440793
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: debf87b0-19ef-4c3a-b1ad-2131c69695e9
+x-runtime: 0.087004
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XHcpZz0IZNxMziLfiT%2BW4%2F7x92aC5m%2FAmw%2B9wXrtCO044hi%2Btmu8b%2BnYvI6ldXSHJRXtYi4qmhGuCJcwwHUuvWsdZg6fu0PZKyPtwDVm3%2BP340FI3N1ueH%2BoXiyei80%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa5ca9ae9a79-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440793,
+    "name": "Ossie West",
+    "email": "test_2cb0ffc1@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440793
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440793
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:17 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: fee66856-cae6-4a81-9049-ce6af495c139
+x-runtime: 0.084858
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OpNFCw6XOHWlq2PvbXNkVHasWCuzH8cJvowFrT2R4iQTOQlqBISWs5cl1%2F3IfjMmyalmSLL6BJlsHS%2Fd1CbZX3jRfOzXXpS5T1%2FZkVA0fQ71W1VN%2F6S7TH8t2HQsepg%3D"}]}
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 9edbfa61ccd86b77-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="getUser_responseShouldMatchSchema" classname="com.api.tests.schema.SchemaValidationTests" time="3.168">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Ina Ortiz",
+    "email": "test_ab69a353@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:19 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 104
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"c78eeb6a41e48cf6962f994473fa9363"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440794
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 8e64c74f-0c5d-49f3-83b0-484ab94338f8
+x-runtime: 0.097976
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kO%2BGT9d8FIp3pVCNOACNw1cFRp13RMqYXC%2FBOLfSUtLE4cG2uZFQWJ1p9wLEiyTTepcsawlMeCxw14phuwECawm%2FCmdNUOtKsAmB50ZC2nWm%2BNmEIJgmUc6D0t0jD%2FQ%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa666bddeff7-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440794,
+    "name": "Ina Ortiz",
+    "email": "test_ab69a353@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/8440794
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440794
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:04:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"c78eeb6a41e48cf6962f994473fa9363"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 2559f954-82ea-44d6-be91-d2affc73311f
+x-runtime: 0.056180
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=dSfx0gvhA6bhiB0qnmj%2Bm66Vdw8C57y%2BDMM9%2Fetic7IEXe2vJ5WgxHF2Frf94ytILdsp%2FyLoeMzIYFOSvGiy6s5tbN8BbhFcmcMpnJZ974GsyuhjBeiVpFSvB%2B8zozw%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbfa6de8e5463b-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440794,
+    "name": "Ina Ortiz",
+    "email": "test_ab69a353@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440794
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440794
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:21 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 82cee2fa-85fa-4f26-ae43-ef157f9e3dd6
+x-runtime: 0.100090
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7tx5G6EcUdDDOwB3AeisOWSGcH1H5LHih3ay%2F%2BxNVbMEfLb4zmstCBIC24bTc8u58wPrW1ShTMvFA%2BfQ1%2BgnMTnlgrgS3iedIGrv8YwXuN2OLipEKs4tlolLN09Y5dg%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa759b642e21-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser_responseShouldMatchSchema" classname="com.api.tests.schema.SchemaValidationTests" time="2.852">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Reggie Hahn DVM",
+    "email": "test_ea6bd0a1@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 110
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"02e97569585fdabc91ae91f679d1fdaa"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440795
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 1d0092d8-9bda-42ea-b05e-050cd68f29e5
+x-runtime: 0.094808
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BxWZ1dzaQ26fK8idYqyKhghq%2B20JiqI6KjIZ8exeS8pCu8QElXy9h0PHSkV5tjtnDsoOvElOs96Eg%2Bk0x3MA9K7l1o9tqjTy13PeK6mwDkGOhgybNfKVaYyRY64s2ZE%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbfa7a0d54f7c2-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440795,
+    "name": "Reggie Hahn DVM",
+    "email": "test_ea6bd0a1@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	PUT
+Request URI:	https://gorest.co.in/public/v2/users/8440795
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440795
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Updated Ian",
+    "status": "inactive"
+}
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:04:22 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"ca8748bdf830b5d21b790f2535f2c0a6"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 64b2b4cd-42af-4566-b8cb-000932734f61
+x-runtime: 0.084092
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9gWpvfZ%2FuBjo3qe1BN22exOU26dOhjwLM3Uw751DL2Vse5Q19Y0%2BwnZq6DA76VC%2Bx5TZLm1L7bFAw4ZY4pDUm9C%2FUAnK5xvVz8EglBcuyjBUfBgZQUpfKGxRNZr9EmM%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbfa7f39feaccd-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": "Updated Ian",
+    "status": "inactive",
+    "id": 8440795,
+    "email": "test_ea6bd0a1@mailtest.com",
+    "gender": "male"
+}
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440795
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440795
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:23 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 832285f8-ee9f-405a-9c05-d3abee3088da
+x-runtime: 0.103652
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pTEAyOQHD%2F6jdVVbrW4XTwkF7Z6bxpcKXewwvsEDfsPP%2B1NMDmic4dYWj7no85DnIbEgGe5NJivoqZlprbr7ezWoex2yttEkpp80rAZCGsVV895z0ZfTUGmef2nC1kI%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa83ba1b6b10-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_withDuplicateEmail_shouldReturn422" classname="com.api.tests.users.NegativeUserTests" time="2.278">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Lucie Hickle",
+    "email": "test_af9f198e@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 107
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"96785037da2730f174171f2e6f3cfba8"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440796
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 956e225d-e33a-48d3-8b2f-c1cffcad7376
+x-runtime: 0.089644
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5IzoimZazKpIy1kMyL%2BNi%2FByiJw6dRXpiX8vddtpWy9p5mF5%2Fo4BKUfbQ0cQovwOphxFqRotuQkSCUDSWw5WJgjY3cAqa8V4rYR9JyuJwj0E1hbVDQCtWX1kAgGCEB0%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbfa8c0b491db5-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440796,
+    "name": "Lucie Hickle",
+    "email": "test_af9f198e@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Another User",
+    "email": "test_af9f198e@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Fri, 17 Apr 2026 14:04:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 24deb439-717a-451a-a838-2189836d7144
+x-runtime: 0.076048
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=iUSZt7emj4JsRMIDP7vWTCyLS0qZ2Wlo3oG6BPaTOpjp65PBBmbZy5v8OKQr8dFvkE2i5SPg4Q9NAW1ynOYfWA3ApYFSbWrcNoA5fXFU%2Bwl6HfEfdnYAqzW7t1Fb5uE%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa908c1d6a82-DFW
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "field": "email",
+        "message": "has already been taken"
+    }
+]
+Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440796
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440796
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:26 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 7eddaa1d-872f-4f31-95bf-6ce736f4a70d
+x-runtime: 0.101929
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=v9Qk43ey4wj0qJId6%2B9a2szG24VsqWiieEVtHrnCusjzDcg9xhtiimR3ayYVcreBeMPfI2fnvy1xubeE%2B5pQD5Wjc5KsUVUHqBcPN8IlT6nhic5l6R341mO3itEw0AM%3D"}]}
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 9edbfa95aaafe9ce-DFW
+alt-svc: h3=":443"; ma=86400
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_withEmptyBody_shouldReturn422" classname="com.api.tests.users.NegativeUserTests" time="0.572">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Fri, 17 Apr 2026 14:04:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 205
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 2
+x-request-id: 867d92dd-991e-4715-a417-f2d1168d70be
+x-runtime: 0.056832
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Uc2ZYVvIT%2BBkzuQz9lnZnWncJALBTcTlnT5E9IkQulzn%2Fvr%2FlZ1PRgFOOIIwROqLlVksVbdpyOsoD7979OOK3IhHPzkDWuG2X4xqfAeHmwoXklDzQMseJAVsTaj8ldg%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbfa99ad4aeaf2-DFW
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "field": "email",
+        "message": "can't be blank"
+    },
+    {
+        "field": "name",
+        "message": "can't be blank"
+    },
+    {
+        "field": "gender",
+        "message": "can't be blank, can be male of female"
+    },
+    {
+        "field": "status",
+        "message": "can't be blank"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_withInvalidGender_shouldReturn422" classname="com.api.tests.users.NegativeUserTests" time="0.775">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Titus Littel",
+    "email": "test_e3882582@mailtest.com",
+    "gender": "unknown",
+    "status": "active"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Fri, 17 Apr 2026 14:04:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 70
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: 2652f213-7404-4fbf-a0bd-0f022c35745a
+x-runtime: 0.069713
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=f%2F2dcC7z3q6Ja3ZhA2u9SFLF5EA2HwtMKVSf95jRRt6lVXkCaouINJPyx6BS1RQ0MLKMDzjOrR4fHjxYEZ4RKsEt1KKa7hYXYrsvWY3hvlGBkISHfce1OrQzxw0MTmE%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfa9defe1f78b-DFW
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "field": "gender",
+        "message": "can't be blank, can be male of female"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_withoutEmail_shouldReturn422" classname="com.api.tests.users.NegativeUserTests" time="0.72">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Mrs. Roselee Flatley",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Fri, 17 Apr 2026 14:04:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 46
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: 541fab01-ddfb-4a0c-bdde-3f550cd1d551
+x-runtime: 0.057902
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xxag7W6%2Fv1Xwf8cbxsWj9YwI4ISPOcpiwxadaAVAxoq8Mzh61yZLnlScK%2BGA67qvng80vvMPGK%2FyQluVFVmNE4XvW6qGCBQ1tu55jw%2Bb%2BgoXbGwcoc71YI4Y2A38iC4%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbfaa30fe5d47c-DFW
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "field": "email",
+        "message": "can't be blank"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_withoutName_shouldReturn422" classname="com.api.tests.users.NegativeUserTests" time="0.71">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test_60c05422@mailtest.com",
+    "gender": "female",
+    "status": "active"
+}
+HTTP/1.1 422 Unprocessable Entity
+Date: Fri, 17 Apr 2026 14:04:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 45
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 2
+x-request-id: 0475fb1b-a526-43b8-94eb-d39b4a412485
+x-runtime: 0.078265
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jKqQTzVAQeSexMH2%2BWoVx6mih2hf5ad2L0syeCxcOQPzDgYDoTy6T%2Bk5rRfTk6aT7u21uQfLMkebXNtqm10atl5I32LEKx1MPUxpkjRcT%2BJwyvdRomEwm5RTSNKO2g0%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfaa73f37f887-DFW
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "field": "name",
+        "message": "can't be blank"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_withoutToken_shouldReturn401" classname="com.api.tests.users.NegativeUserTests" time="0.704">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Malik Reichel DDS",
+    "email": "test_eabb6f1e@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 401 Unauthorized
+Date: Fri, 17 Apr 2026 14:04:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-request-id: 3abc24a1-f403-4008-8b11-279e296e349e
+x-runtime: 0.008985
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=knFT2SksASVELBbXlEtNAEOLa%2F%2BrbujD%2BvWcOwgVq2roKOLa28uycoQhFfqOPnUtoA4hC357M6ZrBrZg5EsFfMZH61Gnl8E1WBLy8UW2%2BdlpQ1liOLGPrinUsIkLBeg%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfaac0b6369d9-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Authentication failed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getUser_nonExistentId_shouldReturn404" classname="com.api.tests.users.NegativeUserTests" time="0.826">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/999999999
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=999999999
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Fri, 17 Apr 2026 14:04:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 1
+x-request-id: 9977060a-e84b-4bdc-b5ac-09f7011a5ef1
+x-runtime: 0.050268
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=H%2F7yXzzSN3ZuDDQIU2pEMznhaoz9vH0yF4JyNbHsXfhHJ9SC7FyxC0cChmg%2FlDREPFKivs6CYwWZ8xOj7LMJ2JG%2Bo3sHrP5LpTPJUsi2U6%2BKmDxYdLuQ95bP9v%2BgVGI%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfab12d7f46a1-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Resource not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUser_nonExistentId_shouldReturn404" classname="com.api.tests.users.NegativeUserTests" time="1.214">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://gorest.co.in/public/v2/users/999999999
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=999999999
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Updated Tod",
+    "status": "inactive"
+}
+HTTP/1.1 404 Not Found
+Date: Fri, 17 Apr 2026 14:04:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 704bae36-4ac3-4963-b635-3234ac15afc1
+x-runtime: 0.056852
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=3PY%2BjMOws88QfQLBogBtI5RCLMti4%2FFJFGthJ%2BTB68XjwDme7xt5MgN6Jsb7HaP%2FPW3xR4GarwyVCW%2F4RDUAmfsachdQvSZX3s1QgGD9g4bDXouSXy%2B4EllfdAQLn%2Bw%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfab4fc7d2e24-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Resource not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="step1_createUser" classname="com.api.tests.integration.UserIntegrationTests" time="0.854">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://gorest.co.in/public/v2/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Beatriz Prohaska",
+    "email": "test_9cbb339f@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 201 Created
+Date: Fri, 17 Apr 2026 14:04:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 111
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"aa25b3761fb1372f05727d1a68916265"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+location: https://gorest.co.in/public/v2/users/8440797
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: cb62d91a-f226-45c7-bdcc-23a335bab41c
+x-runtime: 0.086712
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ME1KWoCcQWKV5r%2FyPU53QisHCNMtrVfn%2BdckXYwZt3qiBZ2H63ahOpxKNxZGXvCpyTPKRw%2BDDMuAWMNp6apF57bCUwQwVTlJI7rr84N3A4ifJT%2FKXjxLKUbYLY5Y2Pw%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 9edbfabd4ee26d84-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440797,
+    "name": "Beatriz Prohaska",
+    "email": "test_9cbb339f@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+✅ [Paso 1] Usuario creado con ID: 8440797
+]]></system-out>
+  </testcase>
+  <testcase name="step2_getAndValidateCreatedUser" classname="com.api.tests.integration.UserIntegrationTests" time="0.805">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/8440797
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440797
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:04:33 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"aa25b3761fb1372f05727d1a68916265"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: f6374e86-10f5-42d1-8b0e-1585a02b89f5
+x-runtime: 0.064794
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pI%2FMtXJ4HToP36vhmjYJx0ua4Uh%2BKBuHvFNXrt99tV1yxRY%2BpfQsRZY42jqBpdnbETtfIjFiktTAxcUe3VmvNbMDlyBDQI88PYnL1rfWXPzQSplK6eSn%2Fvnr%2FBTARfI%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbfac26909cb75-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440797,
+    "name": "Beatriz Prohaska",
+    "email": "test_9cbb339f@mailtest.com",
+    "gender": "male",
+    "status": "active"
+}
+✅ [Paso 2] Usuario validado: test_9cbb339f@mailtest.com
+]]></system-out>
+  </testcase>
+  <testcase name="step3_updateUser" classname="com.api.tests.integration.UserIntegrationTests" time="0.835">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://gorest.co.in/public/v2/users/8440797
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440797
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Updated Palmer",
+    "status": "inactive"
+}
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:04:34 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"8a9e5fa4887c1b24fc29d5e588aa6e34"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: ca1321b8-dcb8-4c66-b854-bc7d526fe479
+x-runtime: 0.077295
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=TJJtt9%2FwR9VTQsnEfUWBbLxHlU20hD6WcFsVNVJxcLKw9U7gEo6%2FYCuaDBfeg4I0BRetTnfsbKf2HofsdD469kMI7lS%2FSDmgQ7n3WDavGiTS5xfanlFNS%2F7WO6rAni0%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbfac78ca128e8-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "name": "Updated Palmer",
+    "status": "inactive",
+    "id": 8440797,
+    "email": "test_9cbb339f@mailtest.com",
+    "gender": "male"
+}
+✅ [Paso 3] Usuario actualizado a: Updated Palmer
+]]></system-out>
+  </testcase>
+  <testcase name="step4_confirmUpdate" classname="com.api.tests.integration.UserIntegrationTests" time="0.859">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/8440797
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440797
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2026 14:04:35 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"357993c2efe68848b1c3d7c97adf38ba"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 134acf99-eea0-41ad-94d5-5334df4d703f
+x-runtime: 0.071125
+x-xss-protection: 0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jgrxA2aOIF7M%2BRKCsdeiZh9r9Lzk1tzNU7qsvfjoawElcsS%2FfaAncR5L9x4AJYKGkyo5wlqNsFxjc5iCvf7YdHGkQS%2F6BHKk4ZY2yMk2ryrKNbWA%2BOsLinaq5GQpTGs%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: 9edbfacd4cfd6c5e-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 8440797,
+    "name": "Updated Palmer",
+    "email": "test_9cbb339f@mailtest.com",
+    "gender": "male",
+    "status": "inactive"
+}
+✅ [Paso 4] Actualización confirmada. Status: inactive
+]]></system-out>
+  </testcase>
+  <testcase name="step5_deleteUser" classname="com.api.tests.integration.UserIntegrationTests" time="0.708">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://gorest.co.in/public/v2/users/8440797
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440797
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Fri, 17 Apr 2026 14:04:35 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: a1403d59-d365-4662-9466-cfc87c7e8fa6
+x-runtime: 0.095461
+x-xss-protection: 0
+cf-cache-status: DYNAMIC
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=JDBTqG9oIOhGbjsEgjTzwgxoRkGXEd9C364abaGx7L5O4wmJuiTqaLMdrFZJHfcnZH6OtPE4m6AqKxdBXO%2BvRbV0TEbSgL3bew1HC00gu%2FpviYB8BMA3QgB%2F1TNSLfU%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfad1c984f070-DFW
+alt-svc: h3=":443"; ma=86400
+✅ [Paso 5] Usuario eliminado con ID: 8440797
+]]></system-out>
+  </testcase>
+  <testcase name="step6_confirmDeletion" classname="com.api.tests.integration.UserIntegrationTests" time="0.628">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://gorest.co.in/public/v2/users/8440797
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=8440797
+Headers:		Authorization=Bearer 3bab870ef905f5a46e66441f683c0aa33f83cd42956f5da9e59134fe9d034234
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Fri, 17 Apr 2026 14:04:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Cache-Control: no-cache
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 7e4e3a76-809a-40a4-beab-4ccb26bf5db9
+x-runtime: 0.046131
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QMPNRqHrKo6iniRlE3DDHOEz83IpU%2FNcYS%2Fx0wWXI1ZiSF6ulwoo31d5ATccQrWJ345zqpLJCw215hcNbXLnteJSdL5hoxGUPs1u%2BnHb2YTTF%2FWQBmKLUHqxar6bXl8%3D"}]}
+Server: cloudflare
+CF-RAY: 9edbfad6399f4764-DFW
+alt-svc: h3=":443"; ma=86400
+
+{
+    "message": "Resource not found"
+}
+✅ [Paso 6] Eliminación confirmada. ID 8440797 ya no existe.
+🎉 Flujo de integración completo exitosamente.
+]]></system-out>
+  </testcase>
+</testsuite>

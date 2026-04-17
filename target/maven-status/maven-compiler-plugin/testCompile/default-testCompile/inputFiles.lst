@@ -1,0 +1,10 @@
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\config\ConfigManager.java
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\config\RequestSpecFactory.java
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\models\User.java
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\tests\auth\AuthTests.java
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\tests\integration\UserIntegrationTests.java
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\tests\schema\SchemaValidationTests.java
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\tests\users\NegativeUserTests.java
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\tests\users\UserCrudTests.java
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\utils\BaseTest.java
+C:\Users\ern3s\gorest-api-tests\src\test\java\com\api\utils\TestDataFactory.java

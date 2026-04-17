@@ -1,0 +1,11 @@
+com\api\models\User$UserBuilder.class
+com\api\models\User.class
+com\api\config\RequestSpecFactory.class
+com\api\tests\schema\SchemaValidationTests.class
+com\api\tests\users\UserCrudTests.class
+com\api\utils\BaseTest.class
+com\api\config\ConfigManager.class
+com\api\tests\auth\AuthTests.class
+com\api\tests\users\NegativeUserTests.class
+com\api\tests\integration\UserIntegrationTests.class
+com\api\utils\TestDataFactory.class
