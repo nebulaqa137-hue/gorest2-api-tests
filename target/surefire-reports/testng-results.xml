@@ -2,164 +2,164 @@
 <testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-17T11:08:25 CST" name="GoRest API Test Suite" finished-at="2026-04-17T11:09:16 CST" duration-ms="50607">
+  <suite started-at="2026-04-17T11:42:04 CST" name="GoRest API Test Suite" finished-at="2026-04-17T11:42:54 CST" duration-ms="49885">
     <groups>
       <group name="integration">
-        <method signature="UserIntegrationTests.step1_createUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" name="step1_createUser" class="com.api.tests.integration.UserIntegrationTests"/>
-        <method signature="UserIntegrationTests.step2_getAndValidateCreatedUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" name="step2_getAndValidateCreatedUser" class="com.api.tests.integration.UserIntegrationTests"/>
-        <method signature="UserIntegrationTests.step3_updateUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" name="step3_updateUser" class="com.api.tests.integration.UserIntegrationTests"/>
-        <method signature="UserIntegrationTests.step4_confirmUpdate()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" name="step4_confirmUpdate" class="com.api.tests.integration.UserIntegrationTests"/>
-        <method signature="UserIntegrationTests.step5_deleteUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" name="step5_deleteUser" class="com.api.tests.integration.UserIntegrationTests"/>
-        <method signature="UserIntegrationTests.step6_confirmDeletion()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" name="step6_confirmDeletion" class="com.api.tests.integration.UserIntegrationTests"/>
+        <method signature="UserIntegrationTests.step1_createUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" name="step1_createUser" class="com.api.tests.integration.UserIntegrationTests"/>
+        <method signature="UserIntegrationTests.step2_getAndValidateCreatedUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" name="step2_getAndValidateCreatedUser" class="com.api.tests.integration.UserIntegrationTests"/>
+        <method signature="UserIntegrationTests.step3_updateUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" name="step3_updateUser" class="com.api.tests.integration.UserIntegrationTests"/>
+        <method signature="UserIntegrationTests.step4_confirmUpdate()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" name="step4_confirmUpdate" class="com.api.tests.integration.UserIntegrationTests"/>
+        <method signature="UserIntegrationTests.step5_deleteUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" name="step5_deleteUser" class="com.api.tests.integration.UserIntegrationTests"/>
+        <method signature="UserIntegrationTests.step6_confirmDeletion()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" name="step6_confirmDeletion" class="com.api.tests.integration.UserIntegrationTests"/>
       </group> <!-- integration -->
     </groups>
-    <test started-at="2026-04-17T11:08:25 CST" name="Auth Tests" finished-at="2026-04-17T11:08:36 CST" duration-ms="10700">
+    <test started-at="2026-04-17T11:42:04 CST" name="Auth Tests" finished-at="2026-04-17T11:42:14 CST" duration-ms="10173">
       <class name="com.api.tests.auth.AuthTests">
-        <test-method signature="invalidToken_shouldReturn401()[pri:0, instance:com.api.tests.auth.AuthTests@5b5c0057]" started-at="2026-04-17T11:08:25 CST" name="invalidToken_shouldReturn401" description="GET /users con token inválido debe retornar 401" finished-at="2026-04-17T11:08:31 CST" duration-ms="5855" status="PASS">
+        <test-method signature="invalidToken_shouldReturn401()[pri:0, instance:com.api.tests.auth.AuthTests@749f539e]" started-at="2026-04-17T11:42:04 CST" name="invalidToken_shouldReturn401" description="GET /users con token inválido debe retornar 401" finished-at="2026-04-17T11:42:10 CST" duration-ms="5801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidToken_shouldReturn401 -->
-        <test-method signature="noToken_shouldReturn401()[pri:0, instance:com.api.tests.auth.AuthTests@5b5c0057]" started-at="2026-04-17T11:08:31 CST" name="noToken_shouldReturn401" description="POST /users sin token debe retornar 401" finished-at="2026-04-17T11:08:33 CST" duration-ms="2182" status="PASS">
+        <test-method signature="noToken_shouldReturn401()[pri:0, instance:com.api.tests.auth.AuthTests@749f539e]" started-at="2026-04-17T11:42:10 CST" name="noToken_shouldReturn401" description="POST /users sin token debe retornar 401" finished-at="2026-04-17T11:42:12 CST" duration-ms="2218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- noToken_shouldReturn401 -->
-        <test-method signature="postWithoutToken_shouldReturn401()[pri:0, instance:com.api.tests.auth.AuthTests@5b5c0057]" started-at="2026-04-17T11:08:33 CST" name="postWithoutToken_shouldReturn401" description="POST /users sin token debe retornar 401 (text block)" finished-at="2026-04-17T11:08:34 CST" duration-ms="1113" status="PASS">
+        <test-method signature="postWithoutToken_shouldReturn401()[pri:0, instance:com.api.tests.auth.AuthTests@749f539e]" started-at="2026-04-17T11:42:12 CST" name="postWithoutToken_shouldReturn401" description="POST /users sin token debe retornar 401 (text block)" finished-at="2026-04-17T11:42:13 CST" duration-ms="1107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postWithoutToken_shouldReturn401 -->
-        <test-method signature="validToken_shouldReturn200()[pri:0, instance:com.api.tests.auth.AuthTests@5b5c0057]" started-at="2026-04-17T11:08:34 CST" name="validToken_shouldReturn200" description="GET /users con token válido debe retornar 200" finished-at="2026-04-17T11:08:36 CST" duration-ms="1346" status="PASS">
+        <test-method signature="validToken_shouldReturn200()[pri:0, instance:com.api.tests.auth.AuthTests@749f539e]" started-at="2026-04-17T11:42:13 CST" name="validToken_shouldReturn200" description="GET /users con token válido debe retornar 200" finished-at="2026-04-17T11:42:14 CST" duration-ms="825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validToken_shouldReturn200 -->
       </class> <!-- com.api.tests.auth.AuthTests -->
     </test> <!-- Auth Tests -->
-    <test started-at="2026-04-17T11:08:36 CST" name="User CRUD Tests" finished-at="2026-04-17T11:08:54 CST" duration-ms="17925">
+    <test started-at="2026-04-17T11:42:14 CST" name="User CRUD Tests" finished-at="2026-04-17T11:42:30 CST" duration-ms="15787">
       <class name="com.api.tests.users.UserCrudTests">
-        <test-method signature="createFemaleUser_shouldReturn201()[pri:0, instance:com.api.tests.users.UserCrudTests@659925f4]" started-at="2026-04-17T11:08:36 CST" name="createFemaleUser_shouldReturn201" description="POST con usuario femenino debe retornar 201" finished-at="2026-04-17T11:08:38 CST" duration-ms="2055" status="PASS">
+        <test-method signature="createFemaleUser_shouldReturn201()[pri:0, instance:com.api.tests.users.UserCrudTests@4cd1c1dc]" started-at="2026-04-17T11:42:14 CST" name="createFemaleUser_shouldReturn201" description="POST con usuario femenino debe retornar 201" finished-at="2026-04-17T11:42:16 CST" duration-ms="2080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFemaleUser_shouldReturn201 -->
-        <test-method signature="createUser_withValidData_shouldReturn201()[pri:0, instance:com.api.tests.users.UserCrudTests@659925f4]" started-at="2026-04-17T11:08:38 CST" name="createUser_withValidData_shouldReturn201" description="POST /users con datos válidos debe retornar 201" finished-at="2026-04-17T11:08:40 CST" duration-ms="2138" status="PASS">
+        <test-method signature="createUser_withValidData_shouldReturn201()[pri:0, instance:com.api.tests.users.UserCrudTests@4cd1c1dc]" started-at="2026-04-17T11:42:16 CST" name="createUser_withValidData_shouldReturn201" description="POST /users con datos válidos debe retornar 201" finished-at="2026-04-17T11:42:18 CST" duration-ms="2128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_withValidData_shouldReturn201 -->
-        <test-method signature="deleteNonExistentUser_shouldReturn404()[pri:0, instance:com.api.tests.users.UserCrudTests@659925f4]" started-at="2026-04-17T11:08:40 CST" name="deleteNonExistentUser_shouldReturn404" description="DELETE /users/{id} con ID inexistente debe retornar 404" finished-at="2026-04-17T11:08:41 CST" duration-ms="1339" status="PASS">
+        <test-method signature="deleteNonExistentUser_shouldReturn404()[pri:0, instance:com.api.tests.users.UserCrudTests@4cd1c1dc]" started-at="2026-04-17T11:42:18 CST" name="deleteNonExistentUser_shouldReturn404" description="DELETE /users/{id} con ID inexistente debe retornar 404" finished-at="2026-04-17T11:42:19 CST" duration-ms="1223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteNonExistentUser_shouldReturn404 -->
-        <test-method signature="deleteUser_withValidId_shouldReturn204()[pri:0, instance:com.api.tests.users.UserCrudTests@659925f4]" started-at="2026-04-17T11:08:41 CST" name="deleteUser_withValidId_shouldReturn204" description="DELETE /users/{id} debe retornar 204" finished-at="2026-04-17T11:08:44 CST" duration-ms="2227" status="PASS">
+        <test-method signature="deleteUser_withValidId_shouldReturn204()[pri:0, instance:com.api.tests.users.UserCrudTests@4cd1c1dc]" started-at="2026-04-17T11:42:19 CST" name="deleteUser_withValidId_shouldReturn204" description="DELETE /users/{id} debe retornar 204" finished-at="2026-04-17T11:42:21 CST" duration-ms="1732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser_withValidId_shouldReturn204 -->
-        <test-method signature="getUserById_withNonExistentId_shouldReturn404()[pri:0, instance:com.api.tests.users.UserCrudTests@659925f4]" started-at="2026-04-17T11:08:44 CST" name="getUserById_withNonExistentId_shouldReturn404" description="GET /users/{id} con ID inexistente debe retornar 404" finished-at="2026-04-17T11:08:44 CST" duration-ms="729" status="PASS">
+        <test-method signature="getUserById_withNonExistentId_shouldReturn404()[pri:0, instance:com.api.tests.users.UserCrudTests@4cd1c1dc]" started-at="2026-04-17T11:42:21 CST" name="getUserById_withNonExistentId_shouldReturn404" description="GET /users/{id} con ID inexistente debe retornar 404" finished-at="2026-04-17T11:42:22 CST" duration-ms="720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserById_withNonExistentId_shouldReturn404 -->
-        <test-method signature="getUserById_withValidId_shouldReturn200()[pri:0, instance:com.api.tests.users.UserCrudTests@659925f4]" started-at="2026-04-17T11:08:44 CST" name="getUserById_withValidId_shouldReturn200" description="GET /users/{id} con ID existente debe retornar 200" finished-at="2026-04-17T11:08:47 CST" duration-ms="2948" status="PASS">
+        <test-method signature="getUserById_withValidId_shouldReturn200()[pri:0, instance:com.api.tests.users.UserCrudTests@4cd1c1dc]" started-at="2026-04-17T11:42:22 CST" name="getUserById_withValidId_shouldReturn200" description="GET /users/{id} con ID existente debe retornar 200" finished-at="2026-04-17T11:42:24 CST" duration-ms="2100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserById_withValidId_shouldReturn200 -->
-        <test-method signature="getUsers_shouldReturn200WithList()[pri:0, instance:com.api.tests.users.UserCrudTests@659925f4]" started-at="2026-04-17T11:08:47 CST" name="getUsers_shouldReturn200WithList" description="GET /users debe retornar lista con status 200" finished-at="2026-04-17T11:08:48 CST" duration-ms="966" status="PASS">
+        <test-method signature="getUsers_shouldReturn200WithList()[pri:0, instance:com.api.tests.users.UserCrudTests@4cd1c1dc]" started-at="2026-04-17T11:42:24 CST" name="getUsers_shouldReturn200WithList" description="GET /users debe retornar lista con status 200" finished-at="2026-04-17T11:42:25 CST" duration-ms="755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsers_shouldReturn200WithList -->
-        <test-method signature="patchUser_shouldReturn200()[pri:0, instance:com.api.tests.users.UserCrudTests@659925f4]" started-at="2026-04-17T11:08:48 CST" name="patchUser_shouldReturn200" description="PATCH /users/{id} debe actualizar parcialmente y retornar 200" finished-at="2026-04-17T11:08:51 CST" duration-ms="2412" status="PASS">
+        <test-method signature="patchUser_shouldReturn200()[pri:0, instance:com.api.tests.users.UserCrudTests@4cd1c1dc]" started-at="2026-04-17T11:42:25 CST" name="patchUser_shouldReturn200" description="PATCH /users/{id} debe actualizar parcialmente y retornar 200" finished-at="2026-04-17T11:42:27 CST" duration-ms="2251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchUser_shouldReturn200 -->
-        <test-method signature="updateUser_withValidData_shouldReturn200()[pri:0, instance:com.api.tests.users.UserCrudTests@659925f4]" started-at="2026-04-17T11:08:51 CST" name="updateUser_withValidData_shouldReturn200" description="PUT /users/{id} debe actualizar y retornar 200" finished-at="2026-04-17T11:08:54 CST" duration-ms="3064" status="PASS">
+        <test-method signature="updateUser_withValidData_shouldReturn200()[pri:0, instance:com.api.tests.users.UserCrudTests@4cd1c1dc]" started-at="2026-04-17T11:42:27 CST" name="updateUser_withValidData_shouldReturn200" description="PUT /users/{id} debe actualizar y retornar 200" finished-at="2026-04-17T11:42:30 CST" duration-ms="2767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUser_withValidData_shouldReturn200 -->
       </class> <!-- com.api.tests.users.UserCrudTests -->
     </test> <!-- User CRUD Tests -->
-    <test started-at="2026-04-17T11:08:54 CST" name="Schema Validation Tests" finished-at="2026-04-17T11:09:04 CST" duration-ms="10221">
+    <test started-at="2026-04-17T11:42:30 CST" name="Schema Validation Tests" finished-at="2026-04-17T11:42:40 CST" duration-ms="10016">
       <class name="com.api.tests.schema.SchemaValidationTests">
-        <test-method signature="createUser_responseShouldMatchSchema()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@4784013e]" started-at="2026-04-17T11:08:54 CST" name="createUser_responseShouldMatchSchema" description="POST /users — response debe cumplir user-schema.json" finished-at="2026-04-17T11:08:56 CST" duration-ms="2023" status="PASS">
+        <test-method signature="createUser_responseShouldMatchSchema()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@6f952d6c]" started-at="2026-04-17T11:42:30 CST" name="createUser_responseShouldMatchSchema" description="POST /users — response debe cumplir user-schema.json" finished-at="2026-04-17T11:42:32 CST" duration-ms="2520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_responseShouldMatchSchema -->
-        <test-method signature="createUser_shouldContainAllRequiredFields()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@4784013e]" started-at="2026-04-17T11:08:56 CST" name="createUser_shouldContainAllRequiredFields" description="Response POST debe contener todos los campos requeridos" finished-at="2026-04-17T11:08:57 CST" duration-ms="1593" status="PASS">
+        <test-method signature="createUser_shouldContainAllRequiredFields()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@6f952d6c]" started-at="2026-04-17T11:42:32 CST" name="createUser_shouldContainAllRequiredFields" description="Response POST debe contener todos los campos requeridos" finished-at="2026-04-17T11:42:34 CST" duration-ms="1549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_shouldContainAllRequiredFields -->
-        <test-method signature="createUser_shouldHaveCorrectDataTypes()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@4784013e]" started-at="2026-04-17T11:08:57 CST" name="createUser_shouldHaveCorrectDataTypes" description="Response debe tener tipos de datos correctos (id=int, name=string)" finished-at="2026-04-17T11:08:59 CST" duration-ms="1690" status="PASS">
+        <test-method signature="createUser_shouldHaveCorrectDataTypes()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@6f952d6c]" started-at="2026-04-17T11:42:34 CST" name="createUser_shouldHaveCorrectDataTypes" description="Response debe tener tipos de datos correctos (id=int, name=string)" finished-at="2026-04-17T11:42:35 CST" duration-ms="1532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_shouldHaveCorrectDataTypes -->
-        <test-method signature="getUser_responseShouldMatchSchema()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@4784013e]" started-at="2026-04-17T11:08:59 CST" name="getUser_responseShouldMatchSchema" description="GET /users/{id} — response debe cumplir user-schema.json" finished-at="2026-04-17T11:09:02 CST" duration-ms="2550" status="PASS">
+        <test-method signature="getUser_responseShouldMatchSchema()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@6f952d6c]" started-at="2026-04-17T11:42:35 CST" name="getUser_responseShouldMatchSchema" description="GET /users/{id} — response debe cumplir user-schema.json" finished-at="2026-04-17T11:42:37 CST" duration-ms="2042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUser_responseShouldMatchSchema -->
-        <test-method signature="updateUser_responseShouldMatchSchema()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@4784013e]" started-at="2026-04-17T11:09:02 CST" name="updateUser_responseShouldMatchSchema" description="PUT /users/{id} — response debe cumplir user-schema.json" finished-at="2026-04-17T11:09:04 CST" duration-ms="2356" status="PASS">
+        <test-method signature="updateUser_responseShouldMatchSchema()[pri:0, instance:com.api.tests.schema.SchemaValidationTests@6f952d6c]" started-at="2026-04-17T11:42:37 CST" name="updateUser_responseShouldMatchSchema" description="PUT /users/{id} — response debe cumplir user-schema.json" finished-at="2026-04-17T11:42:40 CST" duration-ms="2350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUser_responseShouldMatchSchema -->
       </class> <!-- com.api.tests.schema.SchemaValidationTests -->
     </test> <!-- Schema Validation Tests -->
-    <test started-at="2026-04-17T11:09:04 CST" name="Negative Tests" finished-at="2026-04-17T11:09:11 CST" duration-ms="7280">
+    <test started-at="2026-04-17T11:42:40 CST" name="Negative Tests" finished-at="2026-04-17T11:42:49 CST" duration-ms="9016">
       <class name="com.api.tests.users.NegativeUserTests">
-        <test-method signature="createUser_withDuplicateEmail_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@1bcf67e8]" started-at="2026-04-17T11:09:04 CST" name="createUser_withDuplicateEmail_shouldReturn422" description="POST con email duplicado debe retornar 422" finished-at="2026-04-17T11:09:06 CST" duration-ms="2441" status="PASS">
+        <test-method signature="createUser_withDuplicateEmail_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@5f404594]" started-at="2026-04-17T11:42:40 CST" name="createUser_withDuplicateEmail_shouldReturn422" description="POST con email duplicado debe retornar 422" finished-at="2026-04-17T11:42:43 CST" duration-ms="2844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_withDuplicateEmail_shouldReturn422 -->
-        <test-method signature="createUser_withEmptyBody_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@1bcf67e8]" started-at="2026-04-17T11:09:06 CST" name="createUser_withEmptyBody_shouldReturn422" description="POST sin body debe retornar 422" finished-at="2026-04-17T11:09:07 CST" duration-ms="677" status="PASS">
+        <test-method signature="createUser_withEmptyBody_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@5f404594]" started-at="2026-04-17T11:42:43 CST" name="createUser_withEmptyBody_shouldReturn422" description="POST sin body debe retornar 422" finished-at="2026-04-17T11:42:43 CST" duration-ms="729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_withEmptyBody_shouldReturn422 -->
-        <test-method signature="createUser_withInvalidGender_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@1bcf67e8]" started-at="2026-04-17T11:09:07 CST" name="createUser_withInvalidGender_shouldReturn422" description="POST con gender inválido debe retornar 422" finished-at="2026-04-17T11:09:08 CST" duration-ms="675" status="PASS">
+        <test-method signature="createUser_withInvalidGender_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@5f404594]" started-at="2026-04-17T11:42:43 CST" name="createUser_withInvalidGender_shouldReturn422" description="POST con gender inválido debe retornar 422" finished-at="2026-04-17T11:42:44 CST" duration-ms="742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_withInvalidGender_shouldReturn422 -->
-        <test-method signature="createUser_withoutEmail_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@1bcf67e8]" started-at="2026-04-17T11:09:08 CST" name="createUser_withoutEmail_shouldReturn422" description="POST sin email debe retornar 422" finished-at="2026-04-17T11:09:08 CST" duration-ms="722" status="PASS">
+        <test-method signature="createUser_withoutEmail_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@5f404594]" started-at="2026-04-17T11:42:44 CST" name="createUser_withoutEmail_shouldReturn422" description="POST sin email debe retornar 422" finished-at="2026-04-17T11:42:45 CST" duration-ms="715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_withoutEmail_shouldReturn422 -->
-        <test-method signature="createUser_withoutName_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@1bcf67e8]" started-at="2026-04-17T11:09:08 CST" name="createUser_withoutName_shouldReturn422" description="POST sin nombre debe retornar 422" finished-at="2026-04-17T11:09:09 CST" duration-ms="777" status="PASS">
+        <test-method signature="createUser_withoutName_shouldReturn422()[pri:0, instance:com.api.tests.users.NegativeUserTests@5f404594]" started-at="2026-04-17T11:42:45 CST" name="createUser_withoutName_shouldReturn422" description="POST sin nombre debe retornar 422" finished-at="2026-04-17T11:42:46 CST" duration-ms="778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_withoutName_shouldReturn422 -->
-        <test-method signature="createUser_withoutToken_shouldReturn401()[pri:0, instance:com.api.tests.users.NegativeUserTests@1bcf67e8]" started-at="2026-04-17T11:09:09 CST" name="createUser_withoutToken_shouldReturn401" description="POST sin token debe retornar 401" finished-at="2026-04-17T11:09:10 CST" duration-ms="633" status="PASS">
+        <test-method signature="createUser_withoutToken_shouldReturn401()[pri:0, instance:com.api.tests.users.NegativeUserTests@5f404594]" started-at="2026-04-17T11:42:46 CST" name="createUser_withoutToken_shouldReturn401" description="POST sin token debe retornar 401" finished-at="2026-04-17T11:42:47 CST" duration-ms="1152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser_withoutToken_shouldReturn401 -->
-        <test-method signature="getUser_nonExistentId_shouldReturn404()[pri:0, instance:com.api.tests.users.NegativeUserTests@1bcf67e8]" started-at="2026-04-17T11:09:10 CST" name="getUser_nonExistentId_shouldReturn404" description="GET usuario con ID inexistente debe retornar 404" finished-at="2026-04-17T11:09:11 CST" duration-ms="610" status="PASS">
+        <test-method signature="getUser_nonExistentId_shouldReturn404()[pri:0, instance:com.api.tests.users.NegativeUserTests@5f404594]" started-at="2026-04-17T11:42:47 CST" name="getUser_nonExistentId_shouldReturn404" description="GET usuario con ID inexistente debe retornar 404" finished-at="2026-04-17T11:42:48 CST" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUser_nonExistentId_shouldReturn404 -->
-        <test-method signature="updateUser_nonExistentId_shouldReturn404()[pri:0, instance:com.api.tests.users.NegativeUserTests@1bcf67e8]" started-at="2026-04-17T11:09:11 CST" name="updateUser_nonExistentId_shouldReturn404" description="PUT usuario con ID inexistente debe retornar 404" finished-at="2026-04-17T11:09:11 CST" duration-ms="715" status="PASS">
+        <test-method signature="updateUser_nonExistentId_shouldReturn404()[pri:0, instance:com.api.tests.users.NegativeUserTests@5f404594]" started-at="2026-04-17T11:42:48 CST" name="updateUser_nonExistentId_shouldReturn404" description="PUT usuario con ID inexistente debe retornar 404" finished-at="2026-04-17T11:42:49 CST" duration-ms="1332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUser_nonExistentId_shouldReturn404 -->
       </class> <!-- com.api.tests.users.NegativeUserTests -->
     </test> <!-- Negative Tests -->
-    <test started-at="2026-04-17T11:09:11 CST" name="Integration Tests" finished-at="2026-04-17T11:09:16 CST" duration-ms="4394">
+    <test started-at="2026-04-17T11:42:49 CST" name="Integration Tests" finished-at="2026-04-17T11:42:54 CST" duration-ms="4806">
       <class name="com.api.tests.integration.UserIntegrationTests">
-        <test-method is-config="true" signature="globalSetup()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" started-at="2026-04-17T11:08:24 CST" name="globalSetup" finished-at="2026-04-17T11:08:25 CST" duration-ms="1150" status="PASS">
+        <test-method is-config="true" signature="globalSetup()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" started-at="2026-04-17T11:42:03 CST" name="globalSetup" finished-at="2026-04-17T11:42:04 CST" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetup -->
-        <test-method signature="step1_createUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" started-at="2026-04-17T11:09:11 CST" name="step1_createUser" description="[Paso 1] POST — crear usuario nuevo" finished-at="2026-04-17T11:09:12 CST" duration-ms="736" status="PASS">
+        <test-method signature="step1_createUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" started-at="2026-04-17T11:42:49 CST" name="step1_createUser" description="[Paso 1] POST — crear usuario nuevo" finished-at="2026-04-17T11:42:50 CST" duration-ms="802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- step1_createUser -->
-        <test-method signature="step2_getAndValidateCreatedUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" started-at="2026-04-17T11:09:12 CST" name="step2_getAndValidateCreatedUser" description="[Paso 2] GET — validar usuario creado + schema" finished-at="2026-04-17T11:09:13 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step1_createUser" duration-ms="799" status="PASS">
+        <test-method signature="step2_getAndValidateCreatedUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" started-at="2026-04-17T11:42:50 CST" name="step2_getAndValidateCreatedUser" description="[Paso 2] GET — validar usuario creado + schema" finished-at="2026-04-17T11:42:51 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step1_createUser" duration-ms="963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- step2_getAndValidateCreatedUser -->
-        <test-method signature="step3_updateUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" started-at="2026-04-17T11:09:13 CST" name="step3_updateUser" description="[Paso 3] PUT — actualizar nombre y status del usuario" finished-at="2026-04-17T11:09:14 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step2_getAndValidateCreatedUser" duration-ms="810" status="PASS">
+        <test-method signature="step3_updateUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" started-at="2026-04-17T11:42:51 CST" name="step3_updateUser" description="[Paso 3] PUT — actualizar nombre y status del usuario" finished-at="2026-04-17T11:42:51 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step2_getAndValidateCreatedUser" duration-ms="820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- step3_updateUser -->
-        <test-method signature="step4_confirmUpdate()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" started-at="2026-04-17T11:09:14 CST" name="step4_confirmUpdate" description="[Paso 4] GET — confirmar que la actualización persiste" finished-at="2026-04-17T11:09:14 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step3_updateUser" duration-ms="715" status="PASS">
+        <test-method signature="step4_confirmUpdate()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" started-at="2026-04-17T11:42:51 CST" name="step4_confirmUpdate" description="[Paso 4] GET — confirmar que la actualización persiste" finished-at="2026-04-17T11:42:52 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step3_updateUser" duration-ms="779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- step4_confirmUpdate -->
-        <test-method signature="step5_deleteUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" started-at="2026-04-17T11:09:14 CST" name="step5_deleteUser" description="[Paso 5] DELETE — eliminar el usuario creado" finished-at="2026-04-17T11:09:15 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step4_confirmUpdate" duration-ms="694" status="PASS">
+        <test-method signature="step5_deleteUser()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" started-at="2026-04-17T11:42:52 CST" name="step5_deleteUser" description="[Paso 5] DELETE — eliminar el usuario creado" finished-at="2026-04-17T11:42:53 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step4_confirmUpdate" duration-ms="782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- step5_deleteUser -->
-        <test-method signature="step6_confirmDeletion()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@131fcb6f]" started-at="2026-04-17T11:09:15 CST" name="step6_confirmDeletion" description="[Paso 6] GET — confirmar que el usuario ya no existe (404)" finished-at="2026-04-17T11:09:16 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step5_deleteUser" duration-ms="594" status="PASS">
+        <test-method signature="step6_confirmDeletion()[pri:0, instance:com.api.tests.integration.UserIntegrationTests@ccd1bc3]" started-at="2026-04-17T11:42:53 CST" name="step6_confirmDeletion" description="[Paso 6] GET — confirmar que el usuario ya no existe (404)" finished-at="2026-04-17T11:42:54 CST" depends-on-methods="com.api.tests.integration.UserIntegrationTests.step5_deleteUser" duration-ms="628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- step6_confirmDeletion -->
