@@ -276,43 +276,52 @@
           <div class="suite-GoRest_API_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.api.tests.auth.AuthTests</span>
+              <span class="class-name">com.api.tests.schema.SchemaValidationTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="invalidToken_shouldReturn401">
-                  </a> <!-- invalidToken_shouldReturn401 -->
-                  <span class="method-name">invalidToken_shouldReturn401</span>
+                  <a name="createUser_responseShouldMatchSchema">
+                  </a> <!-- createUser_responseShouldMatchSchema -->
+                  <span class="method-name">createUser_responseShouldMatchSchema</span>
                   <em>
-(GET /users con token inválido debe retornar 401)                  </em>
+(POST /users — response debe cumplir user-schema.json)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="noToken_shouldReturn401">
-                  </a> <!-- noToken_shouldReturn401 -->
-                  <span class="method-name">noToken_shouldReturn401</span>
+                  <a name="createUser_shouldContainAllRequiredFields">
+                  </a> <!-- createUser_shouldContainAllRequiredFields -->
+                  <span class="method-name">createUser_shouldContainAllRequiredFields</span>
                   <em>
-(POST /users sin token debe retornar 401)                  </em>
+(Response POST debe contener todos los campos requeridos)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="postWithoutToken_shouldReturn401">
-                  </a> <!-- postWithoutToken_shouldReturn401 -->
-                  <span class="method-name">postWithoutToken_shouldReturn401</span>
+                  <a name="createUser_shouldHaveCorrectDataTypes">
+                  </a> <!-- createUser_shouldHaveCorrectDataTypes -->
+                  <span class="method-name">createUser_shouldHaveCorrectDataTypes</span>
                   <em>
-(POST /users sin token debe retornar 401 (text block))                  </em>
+(Response debe tener tipos de datos correctos (id=int, name=string))                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validToken_shouldReturn200">
-                  </a> <!-- validToken_shouldReturn200 -->
-                  <span class="method-name">validToken_shouldReturn200</span>
+                  <a name="getUser_responseShouldMatchSchema">
+                  </a> <!-- getUser_responseShouldMatchSchema -->
+                  <span class="method-name">getUser_responseShouldMatchSchema</span>
                   <em>
-(GET /users con token válido debe retornar 200)                  </em>
+(GET /users/{id} — response debe cumplir user-schema.json)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUser_responseShouldMatchSchema">
+                  </a> <!-- updateUser_responseShouldMatchSchema -->
+                  <span class="method-name">updateUser_responseShouldMatchSchema</span>
+                  <em>
+(PUT /users/{id} — response debe cumplir user-schema.json)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -551,52 +560,43 @@
           <div class="suite-GoRest_API_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.api.tests.schema.SchemaValidationTests</span>
+              <span class="class-name">com.api.tests.auth.AuthTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createUser_responseShouldMatchSchema">
-                  </a> <!-- createUser_responseShouldMatchSchema -->
-                  <span class="method-name">createUser_responseShouldMatchSchema</span>
+                  <a name="invalidToken_shouldReturn401">
+                  </a> <!-- invalidToken_shouldReturn401 -->
+                  <span class="method-name">invalidToken_shouldReturn401</span>
                   <em>
-(POST /users — response debe cumplir user-schema.json)                  </em>
+(GET /users con token inválido debe retornar 401)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="createUser_shouldContainAllRequiredFields">
-                  </a> <!-- createUser_shouldContainAllRequiredFields -->
-                  <span class="method-name">createUser_shouldContainAllRequiredFields</span>
+                  <a name="noToken_shouldReturn401">
+                  </a> <!-- noToken_shouldReturn401 -->
+                  <span class="method-name">noToken_shouldReturn401</span>
                   <em>
-(Response POST debe contener todos los campos requeridos)                  </em>
+(POST /users sin token debe retornar 401)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="createUser_shouldHaveCorrectDataTypes">
-                  </a> <!-- createUser_shouldHaveCorrectDataTypes -->
-                  <span class="method-name">createUser_shouldHaveCorrectDataTypes</span>
+                  <a name="postWithoutToken_shouldReturn401">
+                  </a> <!-- postWithoutToken_shouldReturn401 -->
+                  <span class="method-name">postWithoutToken_shouldReturn401</span>
                   <em>
-(Response debe tener tipos de datos correctos (id=int, name=string))                  </em>
+(POST /users sin token debe retornar 401 (text block))                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="getUser_responseShouldMatchSchema">
-                  </a> <!-- getUser_responseShouldMatchSchema -->
-                  <span class="method-name">getUser_responseShouldMatchSchema</span>
+                  <a name="validToken_shouldReturn200">
+                  </a> <!-- validToken_shouldReturn200 -->
+                  <span class="method-name">validToken_shouldReturn200</span>
                   <em>
-(GET /users/{id} — response debe cumplir user-schema.json)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="updateUser_responseShouldMatchSchema">
-                  </a> <!-- updateUser_responseShouldMatchSchema -->
-                  <span class="method-name">updateUser_responseShouldMatchSchema</span>
-                  <em>
-(PUT /users/{id} — response debe cumplir user-schema.json)                  </em>
+(GET /users con token válido debe retornar 200)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -720,131 +720,131 @@ data.addRows(32);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'invalidToken_shouldReturn401')
 data.setCell(0, 2, 'com.api.tests.auth.AuthTests')
-data.setCell(0, 3, 5769);
+data.setCell(0, 3, 5855);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getUser_responseShouldMatchSchema')
-data.setCell(1, 2, 'com.api.tests.schema.SchemaValidationTests')
-data.setCell(1, 3, 3170);
+data.setCell(1, 1, 'updateUser_withValidData_shouldReturn200')
+data.setCell(1, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(1, 3, 3064);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'updateUser_responseShouldMatchSchema')
-data.setCell(2, 2, 'com.api.tests.schema.SchemaValidationTests')
-data.setCell(2, 3, 2848);
+data.setCell(2, 1, 'getUserById_withValidId_shouldReturn200')
+data.setCell(2, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(2, 3, 2948);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createUser_responseShouldMatchSchema')
+data.setCell(3, 1, 'getUser_responseShouldMatchSchema')
 data.setCell(3, 2, 'com.api.tests.schema.SchemaValidationTests')
-data.setCell(3, 3, 2479);
+data.setCell(3, 3, 2550);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'getUserById_withValidId_shouldReturn200')
-data.setCell(4, 2, 'com.api.tests.users.UserCrudTests')
-data.setCell(4, 3, 2439);
+data.setCell(4, 1, 'createUser_withDuplicateEmail_shouldReturn422')
+data.setCell(4, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(4, 3, 2441);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'updateUser_withValidData_shouldReturn200')
+data.setCell(5, 1, 'patchUser_shouldReturn200')
 data.setCell(5, 2, 'com.api.tests.users.UserCrudTests')
-data.setCell(5, 3, 2357);
+data.setCell(5, 3, 2412);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'patchUser_shouldReturn200')
-data.setCell(6, 2, 'com.api.tests.users.UserCrudTests')
-data.setCell(6, 3, 2346);
+data.setCell(6, 1, 'updateUser_responseShouldMatchSchema')
+data.setCell(6, 2, 'com.api.tests.schema.SchemaValidationTests')
+data.setCell(6, 3, 2356);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'noToken_shouldReturn401')
-data.setCell(7, 2, 'com.api.tests.auth.AuthTests')
-data.setCell(7, 3, 2340);
+data.setCell(7, 1, 'deleteUser_withValidId_shouldReturn204')
+data.setCell(7, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(7, 3, 2227);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'createUser_withDuplicateEmail_shouldReturn422')
-data.setCell(8, 2, 'com.api.tests.users.NegativeUserTests')
-data.setCell(8, 3, 2260);
+data.setCell(8, 1, 'noToken_shouldReturn401')
+data.setCell(8, 2, 'com.api.tests.auth.AuthTests')
+data.setCell(8, 3, 2182);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'deleteUser_withValidId_shouldReturn204')
+data.setCell(9, 1, 'createUser_withValidData_shouldReturn201')
 data.setCell(9, 2, 'com.api.tests.users.UserCrudTests')
-data.setCell(9, 3, 2127);
+data.setCell(9, 3, 2138);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'createFemaleUser_shouldReturn201')
 data.setCell(10, 2, 'com.api.tests.users.UserCrudTests')
-data.setCell(10, 3, 2053);
+data.setCell(10, 3, 2055);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'createUser_shouldHaveCorrectDataTypes')
+data.setCell(11, 1, 'createUser_responseShouldMatchSchema')
 data.setCell(11, 2, 'com.api.tests.schema.SchemaValidationTests')
-data.setCell(11, 3, 1946);
+data.setCell(11, 3, 2023);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'createUser_withValidData_shouldReturn201')
-data.setCell(12, 2, 'com.api.tests.users.UserCrudTests')
-data.setCell(12, 3, 1739);
+data.setCell(12, 1, 'createUser_shouldHaveCorrectDataTypes')
+data.setCell(12, 2, 'com.api.tests.schema.SchemaValidationTests')
+data.setCell(12, 3, 1690);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'createUser_shouldContainAllRequiredFields')
 data.setCell(13, 2, 'com.api.tests.schema.SchemaValidationTests')
-data.setCell(13, 3, 1580);
+data.setCell(13, 3, 1593);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'getUsers_shouldReturn200WithList')
-data.setCell(14, 2, 'com.api.tests.users.UserCrudTests')
-data.setCell(14, 3, 1341);
+data.setCell(14, 1, 'validToken_shouldReturn200')
+data.setCell(14, 2, 'com.api.tests.auth.AuthTests')
+data.setCell(14, 3, 1346);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'updateUser_nonExistentId_shouldReturn404')
-data.setCell(15, 2, 'com.api.tests.users.NegativeUserTests')
-data.setCell(15, 3, 1212);
+data.setCell(15, 1, 'deleteNonExistentUser_shouldReturn404')
+data.setCell(15, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(15, 3, 1339);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'step1_createUser')
-data.setCell(16, 2, 'com.api.tests.integration.UserIntegrationTests')
-data.setCell(16, 3, 854);
+data.setCell(16, 1, 'postWithoutToken_shouldReturn401')
+data.setCell(16, 2, 'com.api.tests.auth.AuthTests')
+data.setCell(16, 3, 1113);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'getUserById_withNonExistentId_shouldReturn404')
+data.setCell(17, 1, 'getUsers_shouldReturn200WithList')
 data.setCell(17, 2, 'com.api.tests.users.UserCrudTests')
-data.setCell(17, 3, 850);
+data.setCell(17, 3, 966);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'step4_confirmUpdate')
+data.setCell(18, 1, 'step3_updateUser')
 data.setCell(18, 2, 'com.api.tests.integration.UserIntegrationTests')
-data.setCell(18, 3, 850);
+data.setCell(18, 3, 810);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'step3_updateUser')
+data.setCell(19, 1, 'step2_getAndValidateCreatedUser')
 data.setCell(19, 2, 'com.api.tests.integration.UserIntegrationTests')
-data.setCell(19, 3, 830);
+data.setCell(19, 3, 799);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'getUser_nonExistentId_shouldReturn404')
+data.setCell(20, 1, 'createUser_withoutName_shouldReturn422')
 data.setCell(20, 2, 'com.api.tests.users.NegativeUserTests')
-data.setCell(20, 3, 825);
+data.setCell(20, 3, 777);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'deleteNonExistentUser_shouldReturn404')
-data.setCell(21, 2, 'com.api.tests.users.UserCrudTests')
-data.setCell(21, 3, 816);
+data.setCell(21, 1, 'step1_createUser')
+data.setCell(21, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(21, 3, 736);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'step2_getAndValidateCreatedUser')
-data.setCell(22, 2, 'com.api.tests.integration.UserIntegrationTests')
-data.setCell(22, 3, 800);
+data.setCell(22, 1, 'getUserById_withNonExistentId_shouldReturn404')
+data.setCell(22, 2, 'com.api.tests.users.UserCrudTests')
+data.setCell(22, 3, 729);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'postWithoutToken_shouldReturn401')
-data.setCell(23, 2, 'com.api.tests.auth.AuthTests')
-data.setCell(23, 3, 774);
+data.setCell(23, 1, 'createUser_withoutEmail_shouldReturn422')
+data.setCell(23, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(23, 3, 722);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'createUser_withInvalidGender_shouldReturn422')
+data.setCell(24, 1, 'updateUser_nonExistentId_shouldReturn404')
 data.setCell(24, 2, 'com.api.tests.users.NegativeUserTests')
-data.setCell(24, 3, 770);
+data.setCell(24, 3, 715);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'createUser_withoutEmail_shouldReturn422')
-data.setCell(25, 2, 'com.api.tests.users.NegativeUserTests')
-data.setCell(25, 3, 720);
+data.setCell(25, 1, 'step4_confirmUpdate')
+data.setCell(25, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(25, 3, 715);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'createUser_withoutName_shouldReturn422')
-data.setCell(26, 2, 'com.api.tests.users.NegativeUserTests')
-data.setCell(26, 3, 705);
+data.setCell(26, 1, 'step5_deleteUser')
+data.setCell(26, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(26, 3, 694);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'step5_deleteUser')
-data.setCell(27, 2, 'com.api.tests.integration.UserIntegrationTests')
-data.setCell(27, 3, 703);
+data.setCell(27, 1, 'createUser_withEmptyBody_shouldReturn422')
+data.setCell(27, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(27, 3, 677);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'createUser_withoutToken_shouldReturn401')
+data.setCell(28, 1, 'createUser_withInvalidGender_shouldReturn422')
 data.setCell(28, 2, 'com.api.tests.users.NegativeUserTests')
-data.setCell(28, 3, 694);
+data.setCell(28, 3, 675);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'validToken_shouldReturn200')
-data.setCell(29, 2, 'com.api.tests.auth.AuthTests')
-data.setCell(29, 3, 655);
+data.setCell(29, 1, 'createUser_withoutToken_shouldReturn401')
+data.setCell(29, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(29, 3, 633);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'step6_confirmDeletion')
-data.setCell(30, 2, 'com.api.tests.integration.UserIntegrationTests')
-data.setCell(30, 3, 625);
+data.setCell(30, 1, 'getUser_nonExistentId_shouldReturn404')
+data.setCell(30, 2, 'com.api.tests.users.NegativeUserTests')
+data.setCell(30, 3, 610);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'createUser_withEmptyBody_shouldReturn422')
-data.setCell(31, 2, 'com.api.tests.users.NegativeUserTests')
-data.setCell(31, 3, 577);
+data.setCell(31, 1, 'step6_confirmDeletion')
+data.setCell(31, 2, 'com.api.tests.integration.UserIntegrationTests')
+data.setCell(31, 3, 594);
 window.suiteTableData['GoRest_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-GoRest_API_Test_Suite'}
 return data;
 }
@@ -885,143 +885,143 @@ return data;
               <div class="chronological-class-name">com.api.tests.auth.AuthTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">invalidToken_shouldReturn401</span>
-                <span class="method-start">1501 ms</span>
+                <span class="method-start">1224 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">noToken_shouldReturn401</span>
-                <span class="method-start">7400 ms</span>
+                <span class="method-start">7186 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">postWithoutToken_shouldReturn401</span>
-                <span class="method-start">9748 ms</span>
+                <span class="method-start">9385 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validToken_shouldReturn200</span>
-                <span class="method-start">10525 ms</span>
+                <span class="method-start">10502 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.users.UserCrudTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createFemaleUser_shouldReturn201</span>
-                <span class="method-start">11248 ms</span>
+                <span class="method-start">11910 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createUser_withValidData_shouldReturn201</span>
-                <span class="method-start">13303 ms</span>
+                <span class="method-start">13971 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteNonExistentUser_shouldReturn404</span>
-                <span class="method-start">15042 ms</span>
+                <span class="method-start">16111 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteUser_withValidId_shouldReturn204</span>
-                <span class="method-start">15860 ms</span>
+                <span class="method-start">17463 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getUserById_withNonExistentId_shouldReturn404</span>
-                <span class="method-start">17990 ms</span>
+                <span class="method-start">19695 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getUserById_withValidId_shouldReturn200</span>
-                <span class="method-start">18842 ms</span>
+                <span class="method-start">20428 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getUsers_shouldReturn200WithList</span>
-                <span class="method-start">21281 ms</span>
+                <span class="method-start">23380 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">patchUser_shouldReturn200</span>
-                <span class="method-start">22630 ms</span>
+                <span class="method-start">24349 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">updateUser_withValidData_shouldReturn200</span>
-                <span class="method-start">24978 ms</span>
+                <span class="method-start">26764 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.schema.SchemaValidationTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createUser_responseShouldMatchSchema</span>
-                <span class="method-start">27358 ms</span>
+                <span class="method-start">29848 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createUser_shouldContainAllRequiredFields</span>
-                <span class="method-start">29841 ms</span>
+                <span class="method-start">31871 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createUser_shouldHaveCorrectDataTypes</span>
-                <span class="method-start">31421 ms</span>
+                <span class="method-start">33466 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getUser_responseShouldMatchSchema</span>
-                <span class="method-start">33371 ms</span>
+                <span class="method-start">35160 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">updateUser_responseShouldMatchSchema</span>
-                <span class="method-start">36541 ms</span>
+                <span class="method-start">37712 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.users.NegativeUserTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">createUser_withDuplicateEmail_shouldReturn422</span>
-                <span class="method-start">39401 ms</span>
+                <span class="method-start">40079 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createUser_withEmptyBody_shouldReturn422</span>
-                <span class="method-start">41664 ms</span>
+                <span class="method-start">42526 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createUser_withInvalidGender_shouldReturn422</span>
-                <span class="method-start">42251 ms</span>
+                <span class="method-start">43205 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createUser_withoutEmail_shouldReturn422</span>
-                <span class="method-start">43026 ms</span>
+                <span class="method-start">43884 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createUser_withoutName_shouldReturn422</span>
-                <span class="method-start">43746 ms</span>
+                <span class="method-start">44609 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createUser_withoutToken_shouldReturn401</span>
-                <span class="method-start">44461 ms</span>
+                <span class="method-start">45391 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">getUser_nonExistentId_shouldReturn404</span>
-                <span class="method-start">45161 ms</span>
+                <span class="method-start">46026 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">updateUser_nonExistentId_shouldReturn404</span>
-                <span class="method-start">45991 ms</span>
+                <span class="method-start">46637 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.integration.UserIntegrationTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">step1_createUser</span>
-                <span class="method-start">47217 ms</span>
+                <span class="method-start">47370 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">step2_getAndValidateCreatedUser</span>
-                <span class="method-start">48081 ms</span>
+                <span class="method-start">48124 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">step3_updateUser</span>
-                <span class="method-start">48886 ms</span>
+                <span class="method-start">48926 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">step4_confirmUpdate</span>
-                <span class="method-start">49721 ms</span>
+                <span class="method-start">49741 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">step5_deleteUser</span>
-                <span class="method-start">50580 ms</span>
+                <span class="method-start">50462 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">step6_confirmDeletion</span>
-                <span class="method-start">51289 ms</span>
+                <span class="method-start">51159 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
